@@ -1,0 +1,76 @@
+\chapter{Classificazione e Designazione degli acciai}\label{chp:ClassAcc}
+\section{La normazione}
+Per cominciare, è utile osservare come gli enti di normazione descrivono gli acciai.
+tra l'altro sono tra i prodotti più normati presenti sul mercato industriale.
+Dapprima:
+\begin{description}
+\item[UNI] sigla che indica una normativa realizzata dall'Ente nazionale di Unificazione.
+Ente che norma tutte le attività produttive sul mercato italiano. Inoltre è facente parte del \acs{CEN}. Difatti applica sul suolo italiano tutte le normative date dallo stesso \acs{CEN}.
+Non è ammessa la presenza di normative che siano in contrasto con quelle europee.
+\item[EN] contraddistingue le norma sviluppate dal \ac{CEN}.
+Le normative EN devono essere percepite da tutti gli stati membri dello spazio economico europeo.
+Ciò per garantire il libero scambio di prodotti al interno del mercato.
+Il EN è composto dai principali enti nazionali di normazione degli stati membri nello spazio economico europeo.
+\item[ISO] rappresenta tutte le normative sviluppate dal \ac{ISO}. Possono essere un riferimento applicabile per tutto il mondo. Una nazione può decidere se applicare le norma \acs{ISO} indipendentemente da quanto fatto dal \acs{CEN}.
+\end{description} 
+
+Secondo le normative della \acs{CEN} le normative hanno lo scopo di:
+\begin{quote}
+Stabilire le condizioni tecniche per lo scambio di prodotti e di servizi assicurando il continuo adeguamento allo sviluppo delle tecnologie e dei bisogni del mercato
+\end{quote}
+con lo scopo di eliminare le barriere commerciali, almeno tra gli stati europei.
+
+Una prima classificazione dei tipi di acciai perché esistono tante classi di materiale.
+Dunque si può pensare ad una divisione in base:
+\begin{multicols}{2}
+\begin{itemize}
+\item composizione chimica;
+\item processo di fabbricazione;
+\item caratteristiche meccanico-fisiche e di impiego;
+\columnbreak
+\item costituenti strutturali;
+\item ecc\dots
+\end{itemize}
+\end{multicols}
+
+Non a caso sono stati citati i precedenti aspetti, in fatti le normative vanno a coprire gli aspetti stessi, come mostrato nella tabella \ref{tab:NormGen}
+
+\begin{table}
+\centering
+\caption{Norme di carattere geneale}\label{tab:NormGen}
+\begin{tabularx}{\textwidth}{>{\bfseries}lX}
+\toprule
+UNI EN 10020:2001 & Descrizione e classificazione dei tipi di acciaio\\
+UNI EN 10027-1:2016 & Sistemi di designazione degli acciai, \texttt{Designazione alfanumerica}\\
+UNI EN 10027-2:2015 & Sistemi di designazione degli acciai, \texttt{Designazione numerica}\\
+UNI EN 10025-(1-6):2005 & Prodotti laminati a caldo di acciai per impieghi strutturali\\
+UNI EN 10079:2007 & Descrizione dei prodotti di acciaio (forma, dimensioni, aspetto, stato superficiale)\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+Secondo la norma \texttt{UNI EN 10020:2001}:
+\begin{quote}
+L'acciaio è un materiale il cui \emph{tenore in massa di Ferro (Fe) è maggiore di quello di ciascuno degli altri elementi} ed il cui \emph{tenore di Carbonio (C) è generalmente minore del $2\%$} e che contiene altri elementi. Un numero limitato di acciai al Cromo (Cr) può avere tenore di carbonio maggiore del $2\%$, ma tale valore del $2\%$ è il tenore limite corrente che separa l'acciaio dalla ghisa.
+\end{quote}
+Sempre la stessa norma definisce la classificazione principale degli acciai \ref{fig:UNIEN10020:2001}.
+
+\begin{figure}
+\usetikzlibrary{trees}
+\begin{tikzpicture}[
+sibling distance = 10em,
+every node/.style={rectangle, rounded corners, draw, align=center,}
+]
+\node{Acciai}
+	child{ node[top color = UnifeLight] {Non legati}
+		child{ node[bottom color = UnifeDark!80, white] {di qualità}}
+		child{ node[bottom color = UnifeDark!80, white] {speciale}}}
+	child{node[top color = UnifeLight] {Inossidabili}}
+	child{node[top color = UnifeLight] {Legati}
+		child{node[bottom color = UnifeDark!80, white] {di qialità}}
+		child{node[bottom color = UnifeDark!80, white] {speciali}}};
+\end{tikzpicture}
+\caption{Suddivisione acciai in base alla normativa UNI EN 10020:2001}
+\label{fig:UNIEN10020:2001}
+\end{figure}
+\todo{Continuare con il testo}
