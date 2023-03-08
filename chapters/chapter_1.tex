@@ -73,4 +73,94 @@ every node/.style={rectangle, rounded corners, draw, align=center,}
 \caption{Suddivisione acciai in base alla normativa UNI EN 10020:2001}
 \label{fig:UNIEN10020:2001}
 \end{figure}
-\todo{Continuare con il testo}
+Dove:
+\begin{itemize}
+\item \textcolor{UnifeLight}{$\blacksquare$} è la suddivisione per composizione chimica;
+\item \textcolor{UnifeDark!80}{$\blacksquare$} è la suddivisione in base alle caratteristiche meccanico-fisiche della suddivisione chimica.
+\end{itemize}
+L'appartenenza ad una classe si basa sulla composizione chimica di colata indicata sulla norma di prodotto, prendendo in considerazione il valore minimo.
+Vediamo ora come vengono suddivise le categorie in base alla norma.
+\begin{description}
+\item[Acciai non legati] sono gli acciai per cui \emph{Nessuno dei valori limite, rigorosamente fissati dalla norma (tabella \ref{tab:Prosp1}), è raggiunto dai rispettivi tenori degli elementi in lega} (escluso il C).
+\item[Acciai inossidabili] sono acciai contenenti \emph{almeno il $10.5\%$ di Cr e al massimo l'$1.2\%$ di C}.
+\item[Acciai legati] sono acciai per i quali \emph{almeno uno dei valori limite è raggiunto dai dai rispettivi tenori degli elementi in lega} (tabella \ref{tab:Prosp1}) a patto che non siano già appartenenti agli inossidabili.
+\end{description}
+
+\begin{table}
+\centering
+\caption{Prospetto I, norma UNI EN 10020:2001}\label{tab:Prosp1}
+\begin{tabularx}{0.5\textwidth}{lXl}
+\toprule
+\textbf{Elemento} &\textbf{Tenore in $\%$ in massa}\\
+\midrule
+Al & Alluminio & 0.30\\
+B & Boro & 0.0008\\
+Bi & Bismuto & 0.10\\
+Co & Cobalto & 0.30\\
+Cr & Cromo & 0.30\\
+Cu & Rame & 0.40\\
+La & Lantanidi (singolarmente) & 0.10\\
+Mn & Manganese & 1.65\\
+Mo & Molibdeno & 0.08\\
+Nb & Niobio & 0.06\\
+Ni & Nichel & 0.30\\
+Pb & Piombo & 0.40\\
+Se & Selenio & 0.10\\
+Si & Silicio & 0.60\\
+Te & Tellurio & 0.10\\
+Ti & Titanio & 0.05\\
+V & Vanadio & 0.10\\
+W & Tungsteno & 0.30\\
+Zr & Zircronio & 0.05\\
+- & Altri & 0.10\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{Acciai non legati}
+\begin{multicols}{2}[]
+\subsubsection{Di Qualità}
+Sono acciai per i quali, in genere, sussistono prescrizioni riguardanti caratteristiche specifiche, per esempio: tenacità, grossezza e/o formabilità.
+Non sono destinati a trattamenti termici (al più a ricottura e normalizzazione).
+\columnbreak
+\subsubsection{Speciali}
+Sono acciai che presentano, rispetto agli acciai non legati di qualità, una maggiore purezza in particolare nei confronti delle inclusioni non metalliche.
+In genere presentano risposta regolare ai \ac{TT}, e nella maggior parte dei casi sono destinati a:
+\begin{enumerate}
+\item trattamento di bonifica,
+\item trattamento di tempra superficiale.
+\end{enumerate}
+Fanno parte di tale classe gli acciai non legati che rispondono a una o più delle seguenti prescrizioni tutte quelle definizioni che rientrano in \ref{sec:ANLS}. \todo{Aggiungere i riferimenti all'apendice}
+\end{multicols}
+
+\subsection{Acciai inossidabili}
+Sono suddivise in base a due criteri:
+\begin{enumerate}
+\item tenore di Nichel:
+\begin{itemize}
+\item Ni $<2.5\%$
+\item Ni $>2.5\%$
+\end{itemize}
+\item caratteristiche paricolari:
+\begin{itemize}
+\item resistenza alla corrosione;
+\item resistenza all'ossidazione a caldo;
+\item resistenza allo scorrimento.
+\end{itemize}
+\end{enumerate}
+\newpage
+\subsection{Acciai legati}
+\begin{multicols}{2}[]
+\subsection{di Qualità}
+Sono acciai il cui utilizzo è simile agli acciai non legati di qualità, ma che contengono elementi in lega per rispondere ad alcune prescrizioni di impiego.
+Non sono, di regola, destinati a trattamento termico di bonifica o ad un tratamento di tempra superficiale.
+Ne fanno parte gli acciai definiti in \ref{sec:ALDQ}.
+\columnbreak
+\subsection{Speciali}
+Sono acciai , diversi dagli inossidabili, che non rientrano tra le categorie definite per gli acciai legati di qualità caratterizzati da:
+\begin{itemize}
+\item regolazione precisa della composizione chimica;
+\item particolari condizioni di elaborazione e controllo del processo produttivo.
+\end{itemize}
+Ne fanno parte gli acciai descritti in \ref{sec:ALS}.
+\end{multicols}
