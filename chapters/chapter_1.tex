@@ -151,12 +151,12 @@ Sono suddivise in base a due criteri:
 \newpage
 \subsection{Acciai legati}
 \begin{multicols}{2}[]
-\subsection{di Qualità}
+\subsubsection{di Qualità}
 Sono acciai il cui utilizzo è simile agli acciai non legati di qualità, ma che contengono elementi in lega per rispondere ad alcune prescrizioni di impiego.
 Non sono, di regola, destinati a trattamento termico di bonifica o ad un tratamento di tempra superficiale.
 Ne fanno parte gli acciai definiti in \ref{sec:ALDQ}.
 \columnbreak
-\subsection{Speciali}
+\subsubsection{Speciali}
 Sono acciai , diversi dagli inossidabili, che non rientrano tra le categorie definite per gli acciai legati di qualità caratterizzati da:
 \begin{itemize}
 \item regolazione precisa della composizione chimica;
@@ -164,3 +164,54 @@ Sono acciai , diversi dagli inossidabili, che non rientrano tra le categorie def
 \end{itemize}
 Ne fanno parte gli acciai descritti in \ref{sec:ALS}.
 \end{multicols}
+
+\section{La norma UNI EN 10027:2016}
+La normativa ha lo scopo di designare univocamente gli acciai disponibili in commercio in base a due modalità: designazione alfanumerica (parte 1) e designazione numerica (parte 2).
+Inoltre specifica le modalità di nomenclatura degli acciai: specificando le modalità di ottenimento dei nomi per entrambe le parti%
+\footnote{Come nominare un acciaio non viene deciso dall'azienda che lo produce. Lo stesso ente ha il compito di nominare gli acciai.}.
+Inizieremo dalla prima parte ovvero quella alfanumerica.
+\subsection{UNI EN 10027:2016 parte 1}
+Nella prima parte della normativa vengono designati gli acciai in base al loro impiego e alle loro caratteristiche meccanico-fisiche.
+
+\begin{figure}
+\usetikzlibrary{trees,shapes}
+\begin{tikzpicture}[
+sibling distance = 10em,
+Livello1/.style={ellipse, draw, align=center},
+Livello2/.style={rectangle, draw, align=center},]
+\node[Livello1]{W X YYY ZZ }
+	child{node[Livello2, text width=0.1\textwidth]{W: Simbolo iniziale}}
+	child{node[Livello2, color=UnifeLight, text width=0.4\textwidth]{X: Simbolo impiego}}
+	child{node[Livello2, text width=0.3\textwidth]{Y: Caratteristiche meccanico-fisiche}}
+	child{node[Livello2, text width=0.2\textwidth]{Z: Altre indicazioni}};
+\end{tikzpicture}
+\end{figure}
+
+%child{node[Livello1]{Simbolo\\Iniziale}
+%		child{node[Livello2, text width = 0.1\textwidth]{%
+%		\begin{description}
+%		\item[G]: Acciaio per getti 
+%		\item[PM]: metallurgia delle polveri
+%		\end{description}}}}
+%	child{node[Livello1]{Simbolo Impiego}
+%		child{node[Livello2, text width = 0.4\textwidth]{%
+%		\begin{description}
+%		\item[S] Impieghi strutturali,
+%		\item[P] Impieghi sotto pressione,
+%		\item[E] Costruzioni meccaniche,
+%		\item[D] Formatura a freddo,
+%		\item[B] Cemento armato,
+%		\item[Y] Cemento armato precompresso,
+%		\item[R] Acciaio per rotaie,
+%		\item[M] Acciai magnetici,
+%		\item[\dots]
+%		\end{description}}}}
+%	child{node[Livello1]{Caratteristiche\\Meccaniche\\o Fisiche}
+%		child{node[Livello2, text width=0.3\textwidth]{%
+%		\begin{description}
+%		\item[$R_{s,min}$] in $\left[ \unit{\MPa}\right]$
+%		\item[$R_{m,min}$] in $\left[\unit{\MPa}\right]$
+%		\item[$HBW_{min}$] (adimensionale)
+%		\end{description}}}}
+%	child{node[Livello1]{Altre\\Indicazioni}
+%		child{node[Livello2, text width=0.2\textwidth]{Simboli addizionali divisi in due gruppi}}}
