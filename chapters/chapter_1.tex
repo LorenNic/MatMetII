@@ -172,46 +172,87 @@ Inoltre specifica le modalità di nomenclatura degli acciai: specificando le mod
 Inizieremo dalla prima parte ovvero quella alfanumerica.
 \subsection{UNI EN 10027:2016 parte 1}
 Nella prima parte della normativa vengono designati gli acciai in base al loro impiego e alle loro caratteristiche meccanico-fisiche.
+Alla figura \ref{tab:Simb} è rappresentata la modalità di nomenclatura alfanumerica.
 
-\begin{figure}
-\usetikzlibrary{trees,shapes}
-\begin{tikzpicture}[
-sibling distance = 10em,
-Livello1/.style={ellipse, draw, align=center},
-Livello2/.style={rectangle, draw, align=center},]
-\node[Livello1]{W X YYY ZZ }
-	child{node[Livello2, text width=0.1\textwidth]{W: Simbolo iniziale}}
-	child{node[Livello2, color=UnifeLight, text width=0.4\textwidth]{X: Simbolo impiego}}
-	child{node[Livello2, text width=0.3\textwidth]{Y: Caratteristiche meccanico-fisiche}}
-	child{node[Livello2, text width=0.2\textwidth]{Z: Altre indicazioni}};
-\end{tikzpicture}
-\end{figure}
+\begin{table}
+\centering
+\caption{Indicazioni simboli}\label{tab:Simb}
+\begin{tabularx}{\textwidth}{p{0.2\textwidth}XXp{0.1\textwidth}}
+\toprule
+\textbf{W} & \textbf{X} & \textbf{YYY} & \textbf{ZZ}\\
+Simbolo iniziale & Simbolo Impiego & Caratteristiche meccanico-fisiche & Altre indicazioni\\
+\midrule
+\begin{description}
+\item[G]: Acciaio per getti 
+\item[PM]: metallurgia delle polveri
+\end{description}
+&
+\begin{description}
+\item[S] Impieghi strutturali,
+\item[P] Impieghi sotto pressione,
+\item[E] Costruzioni meccaniche,
+\item[D] Formatura a freddo,
+\item[B] Cemento armato,
+\item[Y] Cemento armato precompresso,
+\item[R] Acciaio per rotaie,
+\item[M] Acciai magnetici,
+\item[\dots]\dots
+\end{description}
+&
+\begin{description}
+\item[$R_{s,min}$] in $\left[ \unit{\MPa}\right]$
+\item[$R_{m,min}$] in $\left[\unit{\MPa}\right]$
+\item[$HBW_{min}$] (adimensionale)
+\end{description}
+&
+Simboli addizionali divisi in due gruppi
+\\
+\bottomrule
+\end{tabularx}
+\end{table}
 
-%child{node[Livello1]{Simbolo\\Iniziale}
-%		child{node[Livello2, text width = 0.1\textwidth]{%
-%		\begin{description}
-%		\item[G]: Acciaio per getti 
-%		\item[PM]: metallurgia delle polveri
-%		\end{description}}}}
-%	child{node[Livello1]{Simbolo Impiego}
-%		child{node[Livello2, text width = 0.4\textwidth]{%
-%		\begin{description}
-%		\item[S] Impieghi strutturali,
-%		\item[P] Impieghi sotto pressione,
-%		\item[E] Costruzioni meccaniche,
-%		\item[D] Formatura a freddo,
-%		\item[B] Cemento armato,
-%		\item[Y] Cemento armato precompresso,
-%		\item[R] Acciaio per rotaie,
-%		\item[M] Acciai magnetici,
-%		\item[\dots]
-%		\end{description}}}}
-%	child{node[Livello1]{Caratteristiche\\Meccaniche\\o Fisiche}
-%		child{node[Livello2, text width=0.3\textwidth]{%
-%		\begin{description}
-%		\item[$R_{s,min}$] in $\left[ \unit{\MPa}\right]$
-%		\item[$R_{m,min}$] in $\left[\unit{\MPa}\right]$
-%		\item[$HBW_{min}$] (adimensionale)
-%		\end{description}}}}
-%	child{node[Livello1]{Altre\\Indicazioni}
-%		child{node[Livello2, text width=0.2\textwidth]{Simboli addizionali divisi in due gruppi}}}
+Come si vede dalla tabella \ref{tab:Simb} i vari simboli occupano una posizione ben determinata e specifica.
+C'è da considerare una particolarità tra il simbolo d'impiego e il valore della caratteristica meccanico-fisica specificata per tale categoria.
+\begin{description}
+\item[In generale] viene specificato il valore di snervamento minimo garantito: $R_{s,min}\left[\unit{MPa}\right]$.
+\item[Per Y] Viene specificata la tensione minima di rottura: $R_{m,min}\left[\unit{MPa}\right]$
+\item[Per M] Viene indicata una proprietà magnetica (descritta dalla normativa).
+\item[Per R] La durezza.
+\end{description}
+Per quanto riguarda le altre indicazioni, anche in questo caso dipende dal impiego del materiale.
+Viene riportato un esempio in tabella \ref{tab:ValRes}.
+
+\begin{table}
+\centering
+\caption{Valori di resilienza}\label{tab:ValRes}
+\begin{tabularx}{\textwidth}{XXXX}
+\toprule
+\multicolumn{4}{c}{Resilienza}\\
+\textbf{J} & \textbf{K} & \textbf{L} & \textbf{Temperatura}\\
+min $27\unit{\J}$ & min $40\unit{\J}$ & min $60\unit{\J}$ & $\left[\unit{\celsius}\right]$\\
+\midrule
+JR & KR & LR & 20\\
+J0 & K0 & L0 & 0\\
+J2 & K2 & L2 & -20\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+Se consideriamo come esempio l'acciaio $S355J2$, questo sarà:
+\todo{\\Costruire un ambiente adatto per evidenziare gli esempi}
+\begin{description}
+\item[$S$] un acciaio per impieghi strutturali,
+\item[$355$] avrà valore minimo di snervamento pari a $R_{s,min} = 355\unit{\MPa}$,
+\item[$J2$] valore di resistenza minima a $27\unit{\J}$ ad una temperatura di $-20\unit{\celsius}$.%
+\footnote{Il valore di resilienza dipende dalla temperatura di esercizio del materiale in quanto la bassa temperatura tende a cristallizzare il metallo rendendolo più fragile.}
+\end{description}
+Tra le altre cose il metallo appena visto è uno di quei metalli facente parte della normativa UNI EN 10025-2 ovvero per gli acciai \textit{prodotti laminati a caldo per impieghi strutturali}. Giusto per darne un accenno la normativa è divisa in sei parti:
+\begin{enumerate}
+\item Condizioni tecniche generali di fornitura
+\item Condizioni tecniche di fornitura di acciai non legati per impieghi strutturali
+\item Condizioni tecniche di fornitura di acciai per impieghi strutturali saldabili a grano fine allo stato normalizzato/normalizzato laminato
+\item Condizioni tecniche di fornitura di acciai per impieghi strutturali saldabili a grano fine ottenuti mediante laminazione termomeccanica
+\item Condizioni tecniche di fornitura di acciai per impieghi strutturali con resistenza migliorata alla corrosione atmosferica
+\item Condizioni tecniche di fornitura per prodotti piano di acciai per impieghi strutturali ad alto limite di snervamento allo stato bonificato
+\end{enumerate}
+\todo[inline]{Designazione con normativa precedente.}
