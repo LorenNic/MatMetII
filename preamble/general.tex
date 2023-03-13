@@ -94,6 +94,7 @@
 \usepackage{tikz}
 \usepackage{booktabs}
 \usepackage{multirow}
+\usepackage{tcolorbox}
 
 % Math
 \usepackage{euler}
@@ -328,3 +329,8 @@
 
 % Custom comands
 \usepackage{multicol}
+
+%Custom tcolorbox
+\newtcolorbox[auto counter,number within=section]{example}[2][]{%
+colback=UnifeDark!5!white,colframe=UnifeDark!75!black,fonttitle=\bfseries,
+title=Esempio.~\thetcbcounter: #2,#1}

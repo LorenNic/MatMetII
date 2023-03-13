@@ -238,14 +238,16 @@ J2 & K2 & L2 & -20\\
 \end{tabularx}
 \end{table}
 
+\begin{example}{Descrizione acciaio}
 Se consideriamo come esempio l'acciaio $S355J2$, questo sarà:
-\todo{\\Costruire un ambiente adatto per evidenziare gli esempi}
 \begin{description}
 \item[$S$] un acciaio per impieghi strutturali,
 \item[$355$] avrà valore minimo di snervamento pari a $R_{s,min} = 355\unit{\MPa}$,
-\item[$J2$] valore di resistenza minima a $27\unit{\J}$ ad una temperatura di $-20\unit{\celsius}$.%
-\footnote{Il valore di resilienza dipende dalla temperatura di esercizio del materiale in quanto la bassa temperatura tende a cristallizzare il metallo rendendolo più fragile.}
-\end{description}
+\item[$J2$] valore di resistenza minima a $27\unit{\J}$ ad una temperatura di $-20\unit{\celsius}$.
+\end{description}\label{exa:DescrizoneAcciai}
+\end{example}%
+Si ricorda che la necessità si aggiungere un valore di riferimento alla resilienza, come mostrato all'esempio \ref{exa:DescrizoneAcciai}, è motivato dal fatto che: il valore di resilienza dipende dalla temperatura di esercizio del materiale in quanto la bassa temperatura tende a cristallizzare il metallo rendendolo più fragile.
+
 Tra le altre cose il metallo appena visto è uno di quei metalli facente parte della normativa UNI EN 10025-2 ovvero per gli acciai \textit{prodotti laminati a caldo per impieghi strutturali}. Giusto per darne un accenno la normativa è divisa in sei parti:
 \begin{enumerate}
 \item Condizioni tecniche generali di fornitura
@@ -255,4 +257,214 @@ Tra le altre cose il metallo appena visto è uno di quei metalli facente parte d
 \item Condizioni tecniche di fornitura di acciai per impieghi strutturali con resistenza migliorata alla corrosione atmosferica
 \item Condizioni tecniche di fornitura per prodotti piano di acciai per impieghi strutturali ad alto limite di snervamento allo stato bonificato
 \end{enumerate}
-\todo[inline]{Designazione con normativa precedente.}
+
+\subsection*{La normativa precedente: UNI EU 27/77}
+Sebbene non più in vigore è utile visionare la vecchia normativa, in quanto molte aziende -anche al giorno d'oggi- utilizzano la vecchia nomenclatura.
+Nello specifico, il gruppo 1, considerato anche nella normativa in vigore, si suddivideva in ulteriori due gruppi:
+\begin{description}
+\item[Sottogruppo 1.1] Designazione per caratteristiche meccaniche, di cui non si garantiva la composizione chimica.
+\item[Sottogruppo 1.2] Designazione per tipo d'impiego. 
+\end{description}
+Inoltre, la normativa stessa poneva tali prodotti come venduti allo stato grezzo: stato di lavorazione a caldo, senza trattamento termico.
+
+\subsubsection*{Sottogruppo 1.1}
+\begin{table}
+\centering
+\caption{Sottogruppo 1.1 vecchia normativa}\label{tab:OldLaw1.1}
+\begin{tabularx}{\textwidth}{|c|X|X|X|}
+\toprule
+\textbf{Fe} & \textbf{Simbolo iniziale} & \textbf{Caratteristica meccanica} & \textbf{Altre indicazioni}\\
+\midrule
+&
+\begin{description}
+\item[G] per acciaio per getti
+\end{description}
+&
+\begin{description}
+\item[$R_{m,min}$] Caratteristica a rottura in $\unit{\MPa}$
+\item[$R_{s,min}$] Caratteristica a snervamento in $\unit{\MPa}$ solo preceduta da \textbf{E}
+\end{description}
+&\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+Alla tabella \ref{tab:OldLaw1.1} viene rappresentata la designazione degli acciai in base alla vecchia normativa. Le altre indicazioni, generalmente, contenevano il grado di insensibilità alla frattura fragile: indicata con le lettere dalla A alla D in ordine crescente di insensibilità; il simbolo dell'elemento chimico contenuto in bassi tenori; numeri da 1 a 3 che ne indicavano il grado qualitativo crescente.
+
+\begin{example}{Sottogruppo 1.1}
+\begin{multicols}{3}
+\begin{itemize}
+\item Fe360
+\item FeE355
+\columnbreak
+\item Fe410Pb
+\item Fe410D
+\columnbreak
+\item FeG450
+\item Fe490-2
+\end{itemize}
+\end{multicols}
+\end{example}
+
+\subsubsection*{Sottogruppo 1.2}
+\begin{table}
+\centering
+\caption{Sottogruppo 1.2 vecchia normativa}\label{tab:OldLaw1.2}
+\begin{tabularx}{\textwidth}{|c|X|X|}
+\toprule
+\textbf{Fe} & \textbf{Lettera} & \textbf{Numero di due o più cifre}\\
+\midrule
+&
+Indice d'impiego
+&
+È una specifica relativa al prodotto e ne indica il grado di qualità\\
+\bottomrule
+\end{tabularx}
+\end{table}
+Alla tabella \ref{tab:OldLaw1.2} è rappresentata la vecchia nomenclatura degli acciai secondo il loro impiego.
+
+\begin{example}{Sottogruppo 1.2}
+FeP03 era noto come acciaio in lamiera sottile per imbutiture (P) con grado di qualità 03
+\end{example}
+
+\subsection{UNI EN 10027:2016 parte 2}
+Vine divisa in quattro sotto-categorie:
+\begin{enumerate}
+\item Acciai non legati con tenore medio di Mn $<1\%$
+\item Acciai non legati con tenore medio di Mn $>1\%$, acciai non legati per lavorazioni meccaniche ad alta velocità ("autmoatici"), acciai legati (no HS) con tenori di massa di ciascun elemento in lega $<5\%$
+\item Acciai legati (No HS) il cui tenore in massa di almeno un elemento in lega sia $>5\%$
+\item Acciai rapidi HS.
+\end{enumerate}
+
+\subsubsection{Sottocategoria 2.1}
+Sono acciai non legati con tenore in massa di Mn $<1\%$
+
+\begin{table}
+\centering
+\caption{Sottocategoria 2.1}
+\label{tab:Sotto1}
+\begin{tabularx}{\textwidth}{|c|X|X|}
+\toprule
+\textbf{C} & \textbf{$\%C \times 100$} & \textbf{Altre indicazioni}\\
+\midrule
+Se necessario \textbf{GC} se acciai per getti
+&&
+\begin{description}
+\item[E] zolfo massimo stabilito
+\item[R] zolfo in un dato intervallo
+\item[U] Acciaio ottimizzato per utensili
+\item[S] Acciaio ottimizzato per molle
+\item[\dots] \dots
+\end{description}\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+Alla tabella \ref{tab:Sotto1} è riportato la designazione degli acciai per questa sottocategoria.
+
+\begin{example}{Sottocategoria 2.1}
+C10 acciaio da carbo-cementazione\\
+C40, C80, C120\\
+C35E
+\end{example}
+
+\subsubsection{Sottocategoria 2.2}
+Acciai non legati con tenore medio di Mn $>1\%$, acciai non legati per lavorazioni meccaniche ad alta velocità ("automatici"), acciai legati (no HS) con tenori in massa di ciascun elemento in lega $<5\%$. Alla tabella \ref{tab:Sotto2} viene riportata la formula
+
+\begin{table}
+\centering
+\caption{Sottocategoria 2.2}\label{tab:Sotto2}
+\begin{tabularx}{\textwidth}{|X|X|X|}
+\toprule
+\textbf{$\%C \times 100$} & \textbf{Simboli elementi in lega} & \textbf{Concentrazione degli elementi in lega}\\
+\midrule
+Se necessario \textbf{G} per gli acciai per getti &
+In ordine decrescente di quantità &
+Moltiplicati per il rispettivo fattore (vedi tabella \ref{tab:FattoriElementi})\\
+\bottomrule
+\end{tabularx}
+\end{table}
+I numeri relativi ai diversi elementi devono essere separati da trattini (non sempre vengono specificati tutti).
+
+\begin{table}
+\centering
+\caption{Fattori moltiplicativi elementi}\label{tab:FattoriElementi}
+\begin{tabularx}{\textwidth}{XX}
+\toprule
+\textbf{Elementi chimici} & \textbf{Fattore moltiplicativi}\\
+\midrule
+Cr, Co, Mn, Ni, Si, W & 4x\\
+\midrule
+Al, Be, Cu, Mo, Nb, Pb, Ta, Ti, V, Zr & 10x\\
+\midrule
+Ce, N, P, S & 100x\\
+\midrule
+B & 1000x\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\begin{example}{Esempi di nomenclatura 2.2}
+\begin{tabularx}{\textwidth}{XXX}
+\multirow{4}{*}{35CrNiMo4-2-3} & $0.38\%$ & Carbonio\\
+	& $1\%$ & Cr\\
+	& $0.5\%$ & Ni\\
+	& $0.3\%$ & Mo\\
+\midrule
+\multirow{2}{*}{34CrMo4} & $0.34\%$ & Carbonio\\
+	& $1\%$ & Cr\\
+\bottomrule
+\end{tabularx}
+\end{example}
+
+\subsubsection{Sottocategoria 2.3}
+Acciai legati (No HS) il cui tenore in massa di almeno un elemento in lega sia $>5\%$.
+Nomenclatura è rappresentata in tabella \ref{tab:Sotto3}.
+
+\begin{table}
+\centering
+\caption{Sottocategoria 2.3}\label{tab:Sotto3}
+\begin{tabularx}{\textwidth}{|X|X|X|X|}
+\textbf{X} & \textbf{$\%C \times 100$} & \textbf{Simboli elementi in lega} & \textbf{Concentrazione degli elementi in lega}\\
+\midrule
+Se necessario \textbf{GX} per acciai da getto o \textbf{PMX} per metallurgia delle polveri &&
+In ordine decrescente di quantità &
+Senza fattori moltiplicativi\\
+\end{tabularx}
+\end{table}
+
+\begin{example}{Esempi di nomenclatura 2.3}
+\begin{tabularx}{\textwidth}{XXX}
+\multirow{3}{*}{X5CrNi18-8} & $0.05\%$ & Carbonio\\
+	& $18\%$ & Cr\\
+	& $8\%$ & Ni\\
+\end{tabularx}
+\end{example}
+
+\subsubsection{Sottocategoria 2.4}
+Acciai rapidi (HS).
+
+\begin{table}
+\centering
+\caption{Sottocategoria 2.4}\label{tab:Sotto4}
+\begin{tabularx}{\textwidth}{|X|X|}
+\toprule
+\textbf{HS} & \textbf{Concentrazione degli elementi in lega}\\
+\midrule
+Se necessario \textbf{PMHS} per metallurgia delle polveri &
+Nell'ordine: W, Mo, V, Co\\
+\bottomrule
+\end{tabularx}
+\end{table}
+Gli acciai super-rapidi sono caratterizzati da 4 numeri \textbf{in quello specifico ordine}: \textbf{W, Mo, V, Co}.\\
+Gli acciai rapidi e semi-rapidi sono caratterizzati da 3 numeri \textbf{sempre nello specifico ordine}: \textbf{W, Mo, V}.\\
+
+\begin{example}{Esempi di nomenclatura 2.4}
+\begin{tabularx}{\textwidth}{XXX}
+\multirow{4}{*}{HS7-4-2-5} & $7\%$ & Tungsteno\\
+	& $4\%$ & Molibdeno\\
+	& $2\%$ & Vanadio\\
+	& $5\%$ & Cobalto\\
+\end{tabularx}
+\end{example}
+\todo[inline]{Continuare con la parte 2 della UNI EN 10027:2016}
