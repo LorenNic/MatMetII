@@ -3,9 +3,9 @@
 \contentsline {chapter}{Prefazione}{ii}{chapter*.5}%
 \contentsline {chapter}{Acknowledgements}{iii}{chapter*.6}%
 \contentsline {chapter}{Indice}{iv}{section*.7}%
-\contentsline {chapter}{Elenco delle figure}{v}{section*.9}%
-\contentsline {chapter}{Elenco delle tabelle}{vi}{section*.10}%
-\contentsline {chapter}{Todo list}{vii}{section*.11}%
+\contentsline {chapter}{Elenco delle figure}{vi}{section*.9}%
+\contentsline {chapter}{Elenco delle tabelle}{vii}{section*.10}%
+\contentsline {chapter}{Todo list}{viii}{section*.11}%
 \contentsline {chapter}{\chapternumberline {1}Classificazione e Designazione degli acciai}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}La normazione}{1}{section.1.1}%
 \contentsline {subsection}{\numberline {1.1.1}Acciai non legati}{3}{subsection.1.1.1}%
@@ -15,15 +15,16 @@
 \contentsline {subsection}{\numberline {1.1.3}Acciai legati}{5}{subsection.1.1.3}%
 \contentsline {subsubsection}{\numberline {1.1.3.1}di Qualità}{5}{subsubsection.1.1.3.1}%
 \contentsline {subsubsection}{\numberline {1.1.3.2}Speciali}{5}{subsubsection.1.1.3.2}%
-\contentsline {section}{\numberline {1.2}La norma UNI EN 10027:2016}{5}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}UNI EN 10027:2016 parte 1}{5}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}UNI EN 10027:2016 parte 2}{9}{subsection.1.2.2}%
+\contentsline {section}{\numberline {1.2}La norma UNI EN 10027-1:2016}{5}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}UNI EN 10027-1.1:2016}{5}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}UNI EN 10027-1.2:2016}{9}{subsection.1.2.2}%
 \contentsline {subsubsection}{\numberline {1.2.2.1}Sottocategoria 2.1}{9}{subsubsection.1.2.2.1}%
 \contentsline {subsubsection}{\numberline {1.2.2.2}Sottocategoria 2.2}{10}{subsubsection.1.2.2.2}%
 \contentsline {subsubsection}{\numberline {1.2.2.3}Sottocategoria 2.3}{10}{subsubsection.1.2.2.3}%
 \contentsline {subsubsection}{\numberline {1.2.2.4}Sottocategoria 2.4}{11}{subsubsection.1.2.2.4}%
-\contentsline {appendix}{\chapternumberline {A}Considerazioni aggiuntive sulla UNI EN 10020}{12}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Tipologie di acciai non legati speciali}{12}{section.A.1}%
-\contentsline {section}{\numberline {A.2}Tipologie di acciai legati di qualità}{12}{section.A.2}%
-\contentsline {section}{\numberline {A.3}Tipologie di acciai legati speciali}{13}{section.A.3}%
-\contentsline {appendix}{\chapternumberline {B}Acronimi}{14}{appendix.B}%
+\contentsline {section}{\numberline {1.3}La norma UNI EN 10027-2}{12}{section.1.3}%
+\contentsline {appendix}{\chapternumberline {A}Considerazioni aggiuntive sulla UNI EN 10020}{15}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Tipologie di acciai non legati speciali}{15}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Tipologie di acciai legati di qualità}{15}{section.A.2}%
+\contentsline {section}{\numberline {A.3}Tipologie di acciai legati speciali}{16}{section.A.3}%
+\contentsline {appendix}{\chapternumberline {B}Acronimi}{17}{appendix.B}%
