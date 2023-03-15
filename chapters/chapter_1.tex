@@ -130,7 +130,7 @@ In genere presentano risposta regolare ai \ac{TT}, e nella maggior parte dei cas
 \item trattamento di bonifica,
 \item trattamento di tempra superficiale.
 \end{enumerate}
-Fanno parte di tale classe gli acciai non legati che rispondono a una o più delle seguenti prescrizioni tutte quelle definizioni che rientrano in \ref{sec:ANLS}. \todo{Aggiungere i riferimenti all'apendice}
+Fanno parte di tale classe gli acciai non legati che rispondono a una o più delle seguenti prescrizioni tutte quelle definizioni che rientrano in \ref{sec:ANLS}.
 \end{multicols}
 
 \subsection{Acciai inossidabili}
@@ -165,12 +165,13 @@ Sono acciai , diversi dagli inossidabili, che non rientrano tra le categorie def
 Ne fanno parte gli acciai descritti in \ref{sec:ALS}.
 \end{multicols}
 
-\section{La norma UNI EN 10027-1:2016}
+\section{La norma UNI EN 10027-1:2016}\label{sc:10027-1}
 La normativa ha lo scopo di designare univocamente gli acciai disponibili in commercio in base a due modalità: designazione alfanumerica (parte 1) e designazione numerica (parte 2).
 Inoltre specifica le modalità di nomenclatura degli acciai: specificando le modalità di ottenimento dei nomi per entrambe le parti%
 \footnote{Come nominare un acciaio non viene deciso dall'azienda che lo produce. Lo stesso ente ha il compito di nominare gli acciai.}.
 Inizieremo dalla prima parte ovvero quella alfanumerica.
-\subsection{UNI EN 10027-1.1:2016}
+
+\subsection{UNI EN 10027-1 gruppo 1:2016}\label{ssc:10027-1Gruppo1}
 Nella prima parte della normativa vengono designati gli acciai in base al loro impiego e alle loro caratteristiche meccanico-fisiche.
 Alla figura \ref{tab:Simb} è rappresentata la modalità di nomenclatura alfanumerica.
 
@@ -327,7 +328,7 @@ Alla tabella \ref{tab:OldLaw1.2} è rappresentata la vecchia nomenclatura degli 
 FeP03 era noto come acciaio in lamiera sottile per imbutiture (P) con grado di qualità 03
 \end{example}
 
-\subsection{UNI EN 10027-1.2:2016}
+\subsection{UNI EN 10027-1 gruppo 2:2016}\label{ssc:10027-1Gruppo2}
 Altre categorie di acciai, sempre classificandone il loro impiego sono:
 \begin{enumerate}
 \item Acciai non legati con tenore medio di Mn $<1\%$
@@ -336,7 +337,7 @@ Altre categorie di acciai, sempre classificandone il loro impiego sono:
 \item Acciai rapidi HS.
 \end{enumerate}
 
-\subsubsection{Sottocategoria 2.1}
+\subsubsection{Sottocategoria 2.1}\label{sssc:Sottogruppo2.1}
 Sono acciai non legati con tenore in massa di Mn $<1\%$
 
 \begin{table}
@@ -368,7 +369,7 @@ C40, C80, C120\\
 C35E
 \end{example}
 
-\subsubsection{Sottocategoria 2.2}
+\subsubsection{Sottocategoria 2.2}\label{sssc:Sottogruppo2.2}
 Acciai non legati con tenore medio di Mn $>1\%$, acciai non legati per lavorazioni meccaniche ad alta velocità ("automatici"), acciai legati (no HS) con tenori in massa di ciascun elemento in lega $<5\%$. Alla tabella \ref{tab:Sotto2} viene riportata la formula
 
 \begin{table}
@@ -417,7 +418,7 @@ B & 1000x\\
 \end{tabularx}
 \end{example}
 
-\subsubsection{Sottocategoria 2.3}
+\subsubsection{Sottocategoria 2.3}\label{sssc:Sottogruppo2.3}
 Acciai legati (No HS) il cui tenore in massa di almeno un elemento in lega sia $>5\%$.
 Nomenclatura è rappresentata in tabella \ref{tab:Sotto3}.
 
@@ -441,7 +442,7 @@ Senza fattori moltiplicativi\\
 \end{tabularx}
 \end{example}
 
-\subsubsection{Sottocategoria 2.4}
+\subsubsection{Sottocategoria 2.4}\label{sssc:Sottogruppo2.4}
 Acciai rapidi (HS).
 
 \begin{table}
@@ -468,7 +469,7 @@ Gli acciai rapidi e semi-rapidi sono caratterizzati da 3 numeri \textbf{sempre n
 \end{tabularx}
 \end{example}
 
-\section{La norma UNI EN 10027-2}
+\section{La norma UNI EN 10027-2}\label{sc:10027-2s}
 Vediamo da subito la nomenclatura per tali tipi di acciai alla tabella \ref{tab:ClassParte2}.
 \begin{table}
 \centering
@@ -518,4 +519,44 @@ Di seguito, alla figura \ref{fig:ConfDes}, viene riportato un confronto tra le v
 \caption{Confronto designazioni}\label{fig:ConfDes}
 \end{figure}
 
-\todo[inline]{Completare slides sulla classificazione degli acciai}
+\section{Cenni alla normativa AISI}\label{sc:AISI}
+La designazione americana degli acciai deriva dal lavoro congiunto della \ac{AISI} e della \ac{SAE}.
+Vediamo di seguuito il distinguo tra le varie categorie di acciai.
+
+\subsection{Acciai al carbonio o basso legati}
+Sistema numerico di 4 o 5 cifre: le prime due indicano la classe di appartenenza dell'acciaio. Le ultime due, o tre, indicano la $\%C \times 100$.
+
+\begin{example}{Esempio designazione \ac{AISI}}
+\begin{description}
+\item[10XX(X)] acciai solo C
+\item[41XX(X)] acciai al Cr-Mo
+\end{description}
+\end{example}
+
+Può esserci una lettera di prefisso indicante il processo di fabbricaizone
+
+\subsection{Acciai legati, ma sopratutto inox}
+In questo caso si parla di una sigla a tre cifre con eventuale aggiunta delle lettere.
+La prima cifra indica la classe, le altre due indicano una lega specifica.
+
+\begin{example}{Esempi Norma AISI}
+\begin{description}
+\item[2XX] acciai austenitici Cr-Mn-Ni
+\item[3XX] Inox austenitici Cr-Ni
+\item[4XX] Inox martensitici o ferritici Cr
+\end{description}
+\end{example}
+
+\section{Considerazioni generali}
+la normativaa UNI EN 10027 non è sempre esaustiva: possono esserci dei casi in cui alcuni acciai non possano essere rappresentati tramite una solo stringa alfanumerica.
+Si è osservato che diversi sono i punti di vista secondo i quali gli acciai possono essere classificati \emph{è evidente che non è possibile istituire una classificazione degli acciai che tenga conto di tutti questi aspetti}.
+
+Ai fini pratici è indispensabile riferirsi alle applicazioni, pertanto si preferisce classificare gli acciai in 5 grandi categorie, suddivise a loro volta in classi.
+\begin{itemize}
+\item Acciai da costruzione di uso generale: acciai destinati a sopportare in opera sollecitazioni statiche o dinamiche senza rompersi o deformarsi oltre a limiti determinati.\\
+In genere sono descritti dalla \ref{ssc:10027-1Gruppo1}.
+\item Acciai speciali da costruzione: acciai destinati ad applicazioni più impegnative, nelle quali esplicano sopratutto la funzione di resistere a carichi statici e dinamici. In generale appartengono alle sottocategorie \ref{sssc:Sottogruppo2.1} e \ref{sssc:Sottogruppo2.2} alcuni particolari casi anche alla \ref{sssc:Sottogruppo2.3} perché nessun elemento in lega supera la soglia del $5\%$ di tenore.
+\item Acciai inossidabili: acciai destinati a resistere a determinate condizioni lavorative in ambienti corrosivi. Appartengono alla \ref{sssc:Sottogruppo2.3}.
+\item Acciai da utensili destinati alle lavorazioni di tutte le classi di materiali. Appartengono a diverse classi a seconda di quale sia la loro applicazione, dunque si trovano in: \ref{sssc:Sottogruppo2.2}, \ref{sssc:Sottogruppo2.3} e \ref{sssc:Sottogruppo2.4}
+\item Acciai per usi particolari: acciai caratterizzati dal fatto che il loro impiego è determinato da alcune loro singolari proprietà. Ad esempio: acciai per impieghi a basse temperature, acciai refrattari, acciai con particolari proprietà elettriche o magnetiche ecc\dots
+\end{itemize}
