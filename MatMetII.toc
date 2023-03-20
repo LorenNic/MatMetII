@@ -3,7 +3,6 @@
 \contentsline {chapter}{Indice}{ii}{section*.4}%
 \contentsline {chapter}{Elenco delle figure}{iv}{section*.6}%
 \contentsline {chapter}{Elenco delle tabelle}{v}{section*.7}%
-\contentsline {chapter}{Todo list}{vi}{section*.8}%
 \contentsline {chapter}{\chapternumberline {1}Classificazione e Designazione degli acciai}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}La normazione}{1}{section.1.1}%
 \contentsline {subsection}{\numberline {1.1.1}Acciai non legati}{3}{subsection.1.1.1}%
@@ -26,8 +25,11 @@
 \contentsline {subsection}{\numberline {1.4.2}Acciai legati, ma sopratutto inox}{14}{subsection.1.4.2}%
 \contentsline {section}{\numberline {1.5}Considerazioni generali}{15}{section.1.5}%
 \contentsline {chapter}{\chapternumberline {2}Acciai per impieghi strutturali}{16}{chapter.2}%
-\contentsline {appendix}{\chapternumberline {A}Considerazioni aggiuntive sulla UNI EN 10020}{17}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Tipologie di acciai non legati speciali}{17}{section.A.1}%
-\contentsline {section}{\numberline {A.2}Tipologie di acciai legati di qualità}{17}{section.A.2}%
-\contentsline {section}{\numberline {A.3}Tipologie di acciai legati speciali}{18}{section.A.3}%
-\contentsline {appendix}{\chapternumberline {B}Acronimi}{19}{appendix.B}%
+\contentsline {section}{\numberline {2.1}UNI EN 10025-(3-6) Prodotti laminati a caldo}{18}{section.2.1}%
+\contentsline {appendix}{\chapternumberline {A}Considerazioni aggiuntive sulla UNI EN 10020}{20}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Tipologie di acciai non legati speciali}{20}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Tipologie di acciai legati di qualità}{20}{section.A.2}%
+\contentsline {section}{\numberline {A.3}Tipologie di acciai legati speciali}{21}{section.A.3}%
+\contentsline {appendix}{\chapternumberline {B}Considerazioni aggiuntive sugli acciai da costruzione}{22}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Accia effervescenti e calmati}{22}{section.B.1}%
+\contentsline {appendix}{\chapternumberline {C}Acronimi}{23}{appendix.C}%

@@ -1,4 +1,4 @@
-%!TEX root = ../TecMec.tex 
+%!TEX root = ../MatMetII.tex
 % \RequirePackage[l2tabu,orthodox]{nag} % Old habits die hard
 
 % \newcommand{\papersizeswitch}[3]{\ifnum\strcmp{\papersize}{#1}=0#2\else#3\fi}
@@ -95,6 +95,7 @@
 \usepackage{booktabs}
 \usepackage{multirow}
 \usepackage{tcolorbox}
+\usepackage{chemmacros}
 
 % Math
 \usepackage{euler}
@@ -331,6 +332,15 @@
 \usepackage{multicol}
 
 %Custom tcolorbox
+
+\tcbuselibrary{theorems, skins, breakable}
+
 \newtcolorbox[auto counter,number within=section]{example}[2][]{%
 colback=UnifeDark!5!white,colframe=UnifeDark!75!black,fonttitle=\bfseries,
 title=Esempio.~\thetcbcounter: #2,#1}
+
+\newtcbtheorem[auto counter,number within=section]{definition}%
+  {Definizione}{theorem style=change,oversize,enlarge top by=1mm,enlarge bottom by=1mm,
+    enhanced jigsaw,interior hidden,fuzzy halo=1mm with UnifeLight,
+     fonttitle=\bfseries\upshape,fontupper=\slshape,
+     colframe=UnifeLight!75!black,coltitle=UnifeDark!50!blue!75!black}{antheorem}

@@ -1,2 +1,105 @@
+%!TEX root = ../MatMetII.tex
 \chapter{Acciai per impieghi strutturali}\label{chp:AcciaiStrutturali}
-\todo[inline]{Complimenti hai superato il primo livello... Vuoi continuare?}
+Tra gli accia per impieghi strutturali, si possono trovare sicuramente gli acciai per uso comune e gli accia per costruzioni speciali: ciò per via della grande varietà di prodotti che si possono produrre in questo ambito.
+Giusto per avere un'idea di massima: gli acciai per uso comune ricoprono circa l'80\% della produzione per questa categoria.
+Parliamo di accia che sono designasti, in generale, tramite la lettera '\textbf{S}' secondo la normativa \ref{sc:10027-1}.
+
+In generale sono forniti come prodotti piani e lunghi. Possono uscire in diverse forme di finitura:
+\begin{itemize}
+\item allo stato di lavorazione a caldo;
+\item allo stato normalizzato o bonificato;
+\item ecc\dots
+\end{itemize}
+I prodotti sono normati dalla UNI EN 10149 che è la norma prodotto di riferimento.
+
+Come accennato esiste una normativa sulla definizione dei prodotti in acciai, distinguendo tra
+\begin{itemize}
+\item Prodotti piani:
+	\begin{itemize}
+	\item larghi piatti,
+	\item lamiere,
+	\item nastri,
+	\item lamiere profilate (nervate, ondulate)
+	\end{itemize}
+\item Prodotti lunghi:
+	\begin{itemize}
+	\item verghelle,
+	\item filo,
+	\item barre,
+	\item ecc\dots
+	\end{itemize}
+\end{itemize}
+
+La composizione chimica si riferisce all'analisi di colata, se non diversamente specificato dalla normativa.
+In generale sono descritte le $wt.\%$ massime dei vari elementi in lega, tra cui anche il carbonio, salvo specificarne diversa presenza si una piccola quantità di qualche elemento.
+La norma, di solito, specifica il raggiungimento di alcune proprietà meccaniche tra cui: valori minimi di $R_s$ o $R_m$ ed eventuali caratteristiche utili al fine della costruzione come la saldabilità.
+Quando è prevista zincatura per immissione a caldo di un acciaio, deve esserne garantita l'idoneità: in genere tutti gli acciai possono subire questo tipo di finitura superficiale. Però acciai adatti riescono a formare delle fasi di precipitato di zinco che garantiscono resistenza maggiorata alla corrosione ambientale. Altri, non particolarmente adatti a tale trattamento, tendono a formare delle fasi di precipitato molto irregolari e grossolane che limitano, o addirittura peggiorano, la resistenza alla corrosione.
+
+Tipicamente, la zincabilità dipende dal contenuto in lega del Si.
+Allora si possono avere diverse situazioni:
+\begin{description}
+\item[$Si<0.03\%$] si è in una situazione cautelativa, sicuramente si ha una buona zincatura.
+\item[$0.03\%<Si<0.12\%$] È comunque zincabile, ma non ha le stesse caratteristiche di resistenza alla corrosione del primo caso. Si definiscono, dunque, delle classi di zincabilità.
+\item[$Si>0.3\%$] La sequenza delle fasi di zincatura non è garantita, dunque anche la resistenza all'atmosfera non è garantita. Può migliorare la resistenza alla corrosione in maniera marginale.
+\end{description}
+Tra l'altro è opportuno ricordare che tale trattamento tende ad infragilire il materiale. Fenomeno esaltato dal invecchiamento.
+
+Inoltre sono riportati all'appendice \ref{sc:AccEffCalm} la definizione degli acciai calmati ed effervescenti.
+
+Come già accennato per questa tipologia di acciai: spesso è richiesto il soddisfacimento del requisito di saldabilità.
+Viene definito un acciaio saldabile se: 
+
+\begin{definition}{Saldabilità}{saldabilità}
+Un acciaio può essere considerato saldabile se può essere sottoposto a tale processo costruttivo con le normali tecniche di cantiere senza necessità di trattamenti temici post-saldatura. 
+\end{definition}
+
+Inoltre, vale la pena ricordare che più un acciaio è temprabile, più questo sarà meno saldabile.
+Questo perché un acciaio fortemente temprabile forma più facilmente strutture rigide ma fragili. Dunque un processo di saldatura, dal punto di vista del materiale, può essere considerato come una tempra con raffreddamento in aria.
+In genere viene definito un parametro di carbonio equivalente detto $CEV$.
+Si considera, con opportune eccezioni, saldabile un acciaio con $CEV < 0.5$.
+Questo parametro non è risolutivo: qualsiasi acciaio si può saldare. Aumenta la probabilità di formare delle strutture fragili nella zona termicamente alterata $ZTA$.
+In questi casi bisogna ricorrere a tecniche di saldatura più avanzate.
+
+\section{UNI EN 10025-(3-6) Prodotti laminati a caldo}
+Riprendendo la normativa UNI EN 10025 già citata al capitolo \ref{sc:10027-1}.
+Si ricorda che tale normativa è dedicata a \emph{prodotti laminati a caldo per impieghi strutturali} e che è divisa in sei parti.
+
+\begin{enumerate}
+\item Condizioni tecniche generali di fornitura
+\item Condizioni tecniche di fornitura di acciai non legati per impieghi strutturali
+\item Condizioni tecniche di fornitura di acciai per impieghi strutturali saldabili a grano fine allo stato normalizzato/normalizzato laminato
+\item Condizioni tecniche di fornitura di acciai per impieghi strutturali saldabili a grano fine ottenuti mediante laminazione termomeccanica
+\item Condizioni tecniche di fornitura di acciai per impieghi strutturali con resistenza migliorata alla corrosione atmosferica
+\item Condizioni tecniche di fornitura per prodotti piani di acciai per impieghi strutturali ad alto limite di snervamento allo stato bonificato
+\end{enumerate}
+
+Sono compresi nella normativa acciai di tipo \textbf{S} garantendone il valore minimo di snervamento garantito e l'indice di resilienza come indicato dalla \ref{sc:10027-1}.
+In più la norma definisce ulteriori sigle per indicare l'appartenenza di tali acciai ad una ben specifica parte della normativa:
+\begin{description}
+\item[+AR] indica \eng{As Rolled} ovvero acciaio grezzo da laminazione;
+\item[+N] acciaio proveniente da laminazione normalizzata;
+\item[+M] acciaio proveniente da laminazione temomeccanica;
+\item[+W] acciaio a migliorata resistenza atmosferica;
+\item[+Q] acciaio ad alto valore di snervamento allo stato bonificato.
+\end{description}
+
+\begin{example}{Esempio}
+Acciaio UNI EN 10025-2: \texttt{S235J0C+N} ovvero:
+\begin{description}
+\item[S] acciaio per impieghi strutturali
+\item[235] resistenza allo snervamento minima garantita in $\unit{\MPa}$
+\item[J0] resilienza garantita maggiore di $27\unit{\J}$ ad una temperatura di $0\unit{\celsius}$
+\item[C] acciaio adatto per la formatura a freddo
+\item[N] acciaio allo stato normalizzato
+\end{description}
+\end{example}
+
+La norma definisce anche quali siano le informazioni che devono essere cedute al committente:
+\begin{itemize}
+\item quantitativo da fornire;
+\item forma del prodotto e numero della norma per dimensioni e tolleranze;
+\item Dimensioni nominali e tolleranze dimensionali di forma;
+\item Designazione dell'acciaio;
+\item Tipi di documenti di controllo;
+\item Requisiti aggiuntivi di controllo e prova e tutte le operazioni richieste.
+\end{itemize}

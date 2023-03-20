@@ -1,18 +1,33 @@
-\selectlanguage *{italian}
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {table}{\numberline {1.1}{\ignorespaces Norme di carattere geneale\relax }}{2}{table.caption.12}%
-\contentsline {table}{\numberline {1.2}{\ignorespaces Prospetto I, norma UNI EN 10020:2001\relax }}{4}{table.caption.14}%
-\contentsline {table}{\numberline {1.3}{\ignorespaces Indicazioni simboli\relax }}{6}{table.caption.16}%
-\contentsline {table}{\numberline {1.4}{\ignorespaces Valori di resilienza\relax }}{6}{table.caption.17}%
-\contentsline {table}{\numberline {1.5}{\ignorespaces Sottogruppo 1.1 vecchia normativa\relax }}{8}{table.caption.20}%
-\contentsline {table}{\numberline {1.6}{\ignorespaces Sottogruppo 1.2 vecchia normativa\relax }}{8}{table.caption.22}%
-\contentsline {table}{\numberline {1.7}{\ignorespaces Sottocategoria 2.1\relax }}{9}{table.caption.23}%
-\contentsline {table}{\numberline {1.8}{\ignorespaces Sottocategoria 2.2\relax }}{10}{table.caption.24}%
-\contentsline {table}{\numberline {1.9}{\ignorespaces Fattori moltiplicativi elementi\relax }}{10}{table.caption.25}%
-\contentsline {table}{\numberline {1.10}{\ignorespaces Sottocategoria 2.3\relax }}{11}{table.caption.26}%
-\contentsline {table}{\numberline {1.11}{\ignorespaces Sottocategoria 2.4\relax }}{11}{table.caption.27}%
-\contentsline {table}{\numberline {1.12}{\ignorespaces Classificazione acciai su base chimica\relax }}{12}{table.caption.28}%
+\setforeignlanguage {italian}
+\contentsline {table}{\numberline {1.1}{\ignorespaces Norme di carattere geneale\relax }}{2}{table.caption.10}%
+\setforeignlanguage {italian}
+\setforeignlanguage {italian}
+\contentsline {table}{\numberline {1.2}{\ignorespaces Prospetto I, norma UNI EN 10020:2001\relax }}{4}{table.caption.12}%
+\setforeignlanguage {italian}
+\contentsline {table}{\numberline {1.3}{\ignorespaces Indicazioni simboli\relax }}{6}{table.caption.14}%
+\setforeignlanguage {italian}
+\contentsline {table}{\numberline {1.4}{\ignorespaces Valori di resilienza\relax }}{6}{table.caption.15}%
+\setforeignlanguage {italian}
+\contentsline {table}{\numberline {1.5}{\ignorespaces Sottogruppo 1.1 vecchia normativa\relax }}{8}{table.caption.18}%
+\setforeignlanguage {italian}
+\contentsline {table}{\numberline {1.6}{\ignorespaces Sottogruppo 1.2 vecchia normativa\relax }}{8}{table.caption.20}%
+\setforeignlanguage {italian}
+\contentsline {table}{\numberline {1.7}{\ignorespaces Sottocategoria 2.1\relax }}{9}{table.caption.21}%
+\setforeignlanguage {italian}
+\contentsline {table}{\numberline {1.8}{\ignorespaces Sottocategoria 2.2\relax }}{10}{table.caption.22}%
+\setforeignlanguage {italian}
+\contentsline {table}{\numberline {1.9}{\ignorespaces Fattori moltiplicativi elementi\relax }}{10}{table.caption.23}%
+\setforeignlanguage {italian}
+\contentsline {table}{\numberline {1.10}{\ignorespaces Sottocategoria 2.3\relax }}{11}{table.caption.24}%
+\setforeignlanguage {italian}
+\contentsline {table}{\numberline {1.11}{\ignorespaces Sottocategoria 2.4\relax }}{11}{table.caption.25}%
+\setforeignlanguage {italian}
+\contentsline {table}{\numberline {1.12}{\ignorespaces Classificazione acciai su base chimica\relax }}{12}{table.caption.26}%
+\setforeignlanguage {italian}
+\setforeignlanguage {italian}
+\addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}

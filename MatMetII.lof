@@ -1,9 +1,24 @@
-\selectlanguage *{italian}
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Suddivisione acciai in base alla normativa UNI EN 10020:2001\relax }}{2}{figure.caption.13}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Designazione acciai tramite UNI EN 10027-2\relax }}{13}{figure.caption.29}%
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Confronto designazioni\relax }}{14}{figure.caption.30}%
+\setforeignlanguage {italian}
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Suddivisione acciai in base alla normativa UNI EN 10020:2001\relax }}{2}{figure.caption.11}%
+\setforeignlanguage {italian}
+\setforeignlanguage {italian}
+\setforeignlanguage {italian}
+\setforeignlanguage {italian}
+\setforeignlanguage {italian}
+\setforeignlanguage {italian}
+\setforeignlanguage {italian}
+\setforeignlanguage {italian}
+\setforeignlanguage {italian}
+\setforeignlanguage {italian}
+\setforeignlanguage {italian}
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Designazione acciai tramite UNI EN 10027-2\relax }}{13}{figure.caption.27}%
+\setforeignlanguage {italian}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Confronto designazioni\relax }}{14}{figure.caption.28}%
+\addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
