@@ -103,3 +103,229 @@ La norma definisce anche quali siano le informazioni che devono essere cedute al
 \item Tipi di documenti di controllo;
 \item Requisiti aggiuntivi di controllo e prova e tutte le operazioni richieste.
 \end{itemize}
+
+\begin{example}{Esempi designazione della norma}
+\begin{itemize}
+\item Acciaio \texttt{UNI EN 10025-3} - \texttt{S275N} o \texttt{S275NL}
+\item Acciaio \texttt{UNI EN 10025-4} - \texttt{S420M} o \texttt{S420ML}
+\item Acciaio \texttt{UNI EN 10025-5} - \texttt{S355J0W+N} o \texttt{S355J0WP+N}
+\item Acciaio \texttt{UNI EN 10025-6} - \texttt{S460Q} o \texttt{S460QL} o \texttt{S460QL1}
+\end{itemize}
+\end{example}
+L'indice \texttt{L} indica valore di resilienza minima garantita più alta rispetto al solo parametro \texttt{N} a diverse temperature.
+Stesso discorso per i parametri \texttt{M} e \texttt{ML} Solo che la condizione finale di fornitura è diversa.
+Mentre per gli acciai che presentano il temine \texttt{W} o \texttt{WP} hanno dei tenori di Cr e Cu ben specificati dalla normativa. Quindi indicano una diversa composizione di lega.
+
+\section{Acciai resistenti alla corrosione atmosferica}
+Sono commercialmente definiti come acciai \textbf{Cor-Ten} che sta ad indicare:
+\begin{description}
+\item[\eng{Cor}] "\eng{Corrosion resistance}"
+\item[\eng{Ten}] "\eng{Tensile strength}"
+\end{description}
+
+Per aumentare la resistenza atmosferica contengono come elementi in lega:
+Cu, Cr, Ni e in caso tenori variabili di P.
+La composizione tipica potrebbe essere:
+\begin{example}{Composizione tipica CORTEN}
+\begin{tabularx}{\textwidth}{XXXXXXX}
+\toprule
+C & Mn & Si & Cr & Ni & Cu & V\\
+0.15 & 1.10 & 0.80 & 0.50 & 0.70 & 0.30 & 0.05\\
+\bottomrule
+\end{tabularx}
+\end{example}
+In genere questi acciai vengono forniti allo stato di laminazione di
+normalizzazione o semplicemente laminato. Oppure sotto forma di barre, 
+profilati e lamiere.
+Altre normative descrivono questi acciai come adatti per applicazioni architettoniche ed eventualmente adatti per applicazioni più sollecitate.
+
+Sono acciai che generalmente sono saldabili, eventualmente il materiale
+di apporto che vengono usati anche per acciai Cr-Mn. Nel caso sia
+necessaria una certa finitura estetica (caso di applicazioni
+architettoniche) si usano elettrodi contenenti del Ni ($\approx 2 \div 
+3\%$) per ottenere la stessa finitura superficiale.
+
+\section{Acciai ad alta resistenza (HSS e AHSS)}
+Sono acciai che hanno un preciso scopo: garantire alte prestazioni 
+meccaniche senza eccedere con elementi leganti per mantenere un costo 
+del materiale alto.
+In particolare, le caratteristiche da ricercare in questo acciaio sono:
+\begin{itemize}
+\item Carico di rottura
+\item Carico di snervamento
+\item tenacità
+\item talvolta una migliorata resistenza alla corrosione 
+atmosferica e alle atmosfere industriali (potenzialmente 
+aggressive)
+\end{itemize}
+Lo sviluppo degli acciai \textit{micro-legati} ha consentito
+alla realizzazione di dimensionamenti a minore quantità di materiale
+senza perdere di tenacità e duttilità ed altre caratteristiche
+meccaniche.
+Inoltre la micro-legatura ha tolto la necessità di
+eseguire dei trattamenti termici successivi. Che ovviamente
+si traduce per entrambi gli scopi in minori costi di produzione.
+
+\subsection{Meccanismi di rinforzo}
+Per raggiungere gli obbiettivi indicati in precedenza, gli acciai 
+ad alta resistenza presentano i così detti \emph{Meccanismi di rinforzo}.
+Si vedranno ora i principali.
+
+\paragraph{Rafforzamento per soluzione solida}
+Si tenda ad aumentare il tenore di carbonio, così il materiale diventa
+più duro. In più, si sostituiscono gli elementi sostituzionali: tali 
+deformano il reticolo cristallino interagendo con le dislocazioni, di 
+fatto bloccandole.
+
+\paragraph{Incrudimento}
+La semplice lavorazione a freddo porta il materiale ad incrudire, 
+per cui risulta più duro. Ciò è dovuto all'aumento delle dislocazioni.
+
+\paragraph{Rinforzo per precipitazione}
+Vengo costituite, tramite opportuni processi produttivi, delle fasi
+solide sovrassature che pongono un ostacolo al movimento delle
+dislocazioni.
+
+I metodi presentati in precedenza, sebbene migliorino la resistenza
+in generale, costituiscono un problema in termini di duttilità:
+Andando a bloccare le dislocazioni si ha effettivamente un materiale
+più duro, al contempo si perde di duttilità.
+Alla figura \ref{fig:RinfTenacita} sono riportati qualitativamente.
+
+\begin{figure}
+\centering
+\subfloat[][\emph{Effetti negativi}\label{fig:EffettiNegativiRinforzo}]
+{\includegraphics[width = 0.4\textwidth]{EffettoRinforzoTenacita}} \quad
+\subfloat[][\emph{Effetti positivi}\label{fig:EffettiNegativiRinforzo}]
+{\includegraphics[width = 0.4\textwidth]{EffettoRinforzoTenacita2}}
+\caption{meccanismi di rinforzo in rapporto alla tenacità}
+\label{fig:RinfTenacita}
+\end{figure}
+
+\paragraph{Rafforzamento per affinamento del grano}
+Nel caso di strutture cristalline CCC, come per acciai 
+ferritico-perlitici per costruzione saldate, è l'unico meccanismo 
+che incrementa entrambe le qualità: resistenza e tenacità.
+Allora valgono:
+\begin{align}
+R_s &= \sigma_0 + K d^{-1/2} \label{eqn:tensServ}\\
+I.T.T. &= A - B \ln d^{-1/2} \label{eqn:ITT}
+\end{align}
+Dalla \eqref{eqn:tensServ} e \eqref{eqn:ITT} è evidente come le 
+dimensioni dimensioni del grano siano fondamentali per controllare
+contemporaneamente la tensione di snervamento e la \eng{Input 
+Transition Temperature}. Nello specifico:
+\begin{equation}
+\searrow d \Rightarrow \nearrow R_s \text{ e } \searrow I.T.T.
+\label{eqn:RelMigli}
+\end{equation}
+
+\begin{figure}
+\centering
+\includegraphics[width = \textwidth]{MiglDimGrano}
+\caption{Miglioramento tramite dimensione del grano}
+\label{fig:MiglDimGrano}
+\end{figure}
+
+\begin{center}
+\emph{Come si può controllare le dimensioni del grano ferritico?}
+\end{center}
+In genere non è sempre possibile agire sulla velocità di raffreddamento, 
+perché nella laminazione a caldo, il raffreddamento, vine eseguito in 
+aria. Perciò dipende dallo spessore del laminato.
+Allora si può controllare la dimensione del grano austenitico durante 
+la permanenza ad alta temperatura.
+Perché il grano ferritico nuclea a bordo del grano austenitico, quindi 
+se si limitano le dimensioni dell'austenite se ne limita la nucleazione
+in ferrite, almeno diemensionalmente parlando.
+Inoltre si può ricorrere all'aggiunta in lega di microleganti
+che formano dei carburi i carbonitruri che "fissano" il grano
+austenitico impedendone la crescita.
+
+Da queste considerazioni si sono sviluppati gli \texttt{HSLA} ovvero
+acciai ad alta resistenza ma basso legati.
+
+\subsection{HSLA}
+Gli \ac{HSLA} sono acciai con un prezzo più vicino a quello degli acciai 
+al carbonio per via del fatto che non contengono tenori di elementi in 
+lega eccessivamente alti. Inoltre la loro produzione non è eccessivamente 
+costosa per via dei sistemi di rinforzo che sono stati accennati in 
+precedenza.
+
+Generalmente ne esistono diverse categorie perché sono venduti in base
+alle loro caratteristiche meccaniche piuttosto che sulla composizione
+chimica:
+\begin{itemize}
+\item Acciai a migliorata resistenza alla corrosione atmosferica
+\item Acciai microlegati ferritico-perlitici
+\item Acciai con ferrite aciculare
+\item Acciai con morfologia controllata delle inclusioni
+\end{itemize}
+
+I primi ad essere stati considerati come \ac{HSLA} sono stati i 
+
+\subsubsection{Ferritico-Perlitici ad alta resistenza}
+Il loro sviluppo è stato possibile grazie all'introduzione della laminazione in controllo.
+
+\begin{definition}{Laminazione in controllo}{*}
+Deformazione a caldo con controllo accurato della temperature,
+in modo da bilanciare l'effetto dell'affinamento del grano per
+deformazione con quello della ricristallizzazione dovuta alle 
+alte temperature.
+\end{definition}
+
+L'evoluzione di questi saranno gli acciai ferritico-perlitici
+ad alta resistenza e tenacità.
+
+Sono acciai che contengono V e Nb come elementi microalliganti.
+Per questi acciai le temperature di fine laminazione dono in genere 
+superiori ai $900\unit{\celsius}$ e il raffreddamento avviene in
+aria calma.
+Si ottiene, dunque, un acciaio con grano ferritico non in controllo ma
+rinforzato dai carburi dei microlegati.
+\begin{description}
+\item[Acciai al niobio] interessa la precipitazione dei carburi NbC,
+\item[Acciai al vanadio-azoto] interessa la precipitazione dei nitruri
+VN.
+\end{description}
+
+\begin{figure}
+\centering
+\includegraphics[width = \textwidth]{FerPerHS}
+\caption{Variazioni dello snervamento con l'aggiunta di microleganti}
+\label{fig:FerPerHS}
+\end{figure}
+
+Dalla figura \ref{fig:FerPerHS} si evidenzia come per acciai microlegati
+al Nb l'effetto del azoto sia indifferente. Già più marcato per gli 
+acciai al V. Questo perché si formano i nitruri di vanadio.
+Da notare come a parità degli altri leganti, gli acciai che presentano
+microleganti ottengano una tensione di snervamento decisamente migliore.
+Si vuole ricordare che non sono state eseguite operazioni di affinamento 
+del grano, si considera infatti una dimensione del grano pari a $d 
+\approx 14 \div 16\unit{\um}$.
+
+Ulteriore miglioramento delle caratteristiche di snervamento si 
+raggiunge nel caso di aggiunta di $1\%Cu + 1\%Ni$.
+Il rame è poco solubile col ferro al diminuire della temperatura.
+Se il materiale viene raffreddato molto rapidamente, il rame tende a 
+rimanere in soluzione solida sovrassatura.
+Operando un rinvenimento a $\approx 550\unit{\celsius}$ si ha la 
+precipitazione della fase $\epsilon$ con ulteriore rafforzamento per 
+precipitazione.
+Rafforzamento inizialmente possibile solo per lamiere.
+
+\subsubsection{Ferritico-Perlitici ad alta resistenza e alta tenacità}
+Sono comunque acciai microlegati con cui si procede con 
+\textbf{Affinamento del grano}, controllato tramite controllo della
+dimensione del grano austenitico di partenza.
+Grazie a questo processo si ha un miglioramento della tenacità.
+Dopodiché si hanno duo possibili vie per migliorare anche la resistenza:
+\begin{enumerate}
+\item \textbf{Normalizzazione}, in genere più adatta per lamiere con 
+spessore $>25\unit{\mm}$;
+\item \textbf{Laminazione controllata} per lamiere di spessore 
+$<25\unit{\mm}$.
+\end{enumerate}
+
+\paragraph*{Normalizzazione} per lamiere di spessore $>25\unit{\mm}$
