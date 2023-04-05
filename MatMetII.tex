@@ -1,7 +1,7 @@
 \input{preamble/static}
 
 \newcommand{\papersizeswitch}[3]{\ifnum\strcmp{\papersize}{#1}=0#2\else#3\fi}
-\papersizeswitch{b5paper}{\def\classfontsize{10pt}}{\def\classfontsize{12pt}}
+\papersizeswitch{a4paper}{\def\classfontsize{10pt}}{\def\classfontsize{12pt}}
 
 \documentclass[\classfontsize,\papersize,oneside,extrafontsizes]{memoir}
 
