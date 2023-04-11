@@ -18,7 +18,7 @@
 \contentsline {subsubsection}{\numberline {1.2.2.1}Sottocategoria 2.1}{7}{subsubsection.1.2.2.1}%
 \contentsline {subsubsection}{\numberline {1.2.2.2}Sottocategoria 2.2}{7}{subsubsection.1.2.2.2}%
 \contentsline {subsubsection}{\numberline {1.2.2.3}Sottocategoria 2.3}{8}{subsubsection.1.2.2.3}%
-\contentsline {subsubsection}{\numberline {1.2.2.4}Sottocategoria 2.4}{9}{subsubsection.1.2.2.4}%
+\contentsline {subsubsection}{\numberline {1.2.2.4}Sottocategoria 2.4}{8}{subsubsection.1.2.2.4}%
 \contentsline {section}{\numberline {1.3}La norma UNI EN 10027-2}{9}{section.1.3}%
 \contentsline {section}{\numberline {1.4}Cenni alla normativa AISI}{11}{section.1.4}%
 \contentsline {subsection}{\numberline {1.4.1}Acciai al carbonio o basso legati}{11}{subsection.1.4.1}%
@@ -33,15 +33,15 @@
 \contentsline {paragraph}{Incrudimento}{16}{section*.32}%
 \contentsline {paragraph}{Rinforzo per precipitazione}{16}{section*.33}%
 \contentsline {paragraph}{Rafforzamento per affinamento del grano}{17}{section*.35}%
-\contentsline {subsection}{\numberline {2.3.2}HSLA}{17}{subsection.2.3.2}%
-\contentsline {subsubsection}{\numberline {2.3.2.1}Ferritico-Perlitici ad alta resistenza}{18}{subsubsection.2.3.2.1}%
-\contentsline {subsubsection}{\numberline {2.3.2.2}Ferritico-Perlitici ad alta resistenza e alta tenacità}{19}{subsubsection.2.3.2.2}%
-\contentsline {subsubsection}{\numberline {2.3.2.3}Acciai a basso tenore di C con struttura aciculare}{23}{subsubsection.2.3.2.3}%
-\contentsline {appendix}{\chapternumberline {A}Considerazioni aggiuntive sulla UNI EN 10020}{24}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Tipologie di acciai non legati speciali}{24}{section.A.1}%
-\contentsline {section}{\numberline {A.2}Tipologie di acciai legati di qualità}{24}{section.A.2}%
-\contentsline {section}{\numberline {A.3}Tipologie di acciai legati speciali}{25}{section.A.3}%
-\contentsline {appendix}{\chapternumberline {B}Considerazioni aggiuntive sugli acciai da costruzione}{26}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Accia effervescenti e calmati}{26}{section.B.1}%
-\contentsline {section}{\numberline {B.2}Considerazioni sugli HSLA}{26}{section.B.2}%
-\contentsline {appendix}{\chapternumberline {C}Acronimi}{27}{appendix.C}%
+\contentsline {section}{\numberline {2.4}HSLA}{18}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Ferritico-Perlitici ad alta resistenza}{19}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Ferritico-Perlitici ad alta resistenza e alta tenacità}{19}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Acciai a basso tenore di C con struttura aciculare}{22}{subsection.2.4.3}%
+\contentsline {appendix}{\chapternumberline {A}Considerazioni aggiuntive sulla UNI EN 10020}{25}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Tipologie di acciai non legati speciali}{25}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Tipologie di acciai legati di qualità}{25}{section.A.2}%
+\contentsline {section}{\numberline {A.3}Tipologie di acciai legati speciali}{26}{section.A.3}%
+\contentsline {appendix}{\chapternumberline {B}Considerazioni aggiuntive sugli acciai da costruzione}{27}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Accia effervescenti e calmati}{27}{section.B.1}%
+\contentsline {section}{\numberline {B.2}Considerazioni sugli HSLA}{27}{section.B.2}%
+\contentsline {appendix}{\chapternumberline {C}Acronimi}{28}{appendix.C}%

@@ -222,7 +222,7 @@ Transition Temperature}. Nello specifico:
 
 \begin{figure}
 \centering
-\includegraphics[width = \textwidth]{MiglDimGrano}
+\includegraphics[width = 0.5\textwidth]{MiglDimGrano}
 \caption{Miglioramento tramite dimensione del grano}
 \label{fig:MiglDimGrano}
 \end{figure}
@@ -245,7 +245,7 @@ austenitico impedendone la crescita.
 Da queste considerazioni si sono sviluppati gli \texttt{HSLA} ovvero
 acciai ad alta resistenza ma basso legati.
 
-\subsection{HSLA}
+\section{HSLA}
 Gli \ac{HSLA} sono acciai con un prezzo più vicino a quello degli acciai 
 al carbonio per via del fatto che non contengono tenori di elementi in 
 lega eccessivamente alti. Inoltre la loro produzione non è eccessivamente 
@@ -262,9 +262,10 @@ chimica:
 \item Acciai con morfologia controllata delle inclusioni
 \end{itemize}
 
-I primi ad essere stati considerati come \ac{HSLA} sono stati i 
+\newpage
+\subsection{Ferritico-Perlitici ad alta resistenza}
+Sono considerati tra i primi \ac{HSLA}.
 
-\subsubsection{Ferritico-Perlitici ad alta resistenza}
 Il loro sviluppo è stato possibile grazie all'introduzione della laminazione in controllo.
 
 \begin{definition}{Laminazione in controllo}{*}
@@ -278,7 +279,7 @@ L'evoluzione di questi saranno gli acciai ferritico-perlitici
 ad alta resistenza e tenacità.
 
 Sono acciai che contengono V e Nb come elementi microalliganti.
-Per questi acciai le temperature di fine laminazione dono in genere 
+Per questi acciai le temperature di fine laminazione sono in genere 
 superiori ai $900\unit{\celsius}$ e il raffreddamento avviene in
 aria calma.
 Si ottiene, dunque, un acciaio con grano ferritico non in controllo ma
@@ -289,12 +290,11 @@ rinforzato dai carburi dei microlegati.
 VN.
 \end{description}
 
-\begin{figure}
-\centering
-\includegraphics[width = \textwidth]{FerPerHS}
+\begin{wrapfloat}{figure}{O}{0pt}
+\includegraphics[width = 0.5\textwidth]{FerPerHS}
 \caption{Variazioni dello snervamento con l'aggiunta di microleganti}
 \label{fig:FerPerHS}
-\end{figure}
+\end{wrapfloat}
 
 Dalla figura \ref{fig:FerPerHS} si evidenzia come per acciai microlegati
 al Nb l'effetto del azoto sia indifferente. Già più marcato per gli 
@@ -315,12 +315,13 @@ precipitazione della fase $\epsilon$ con ulteriore rafforzamento per
 precipitazione.
 Rafforzamento inizialmente possibile solo per lamiere.
 
-\subsubsection{Ferritico-Perlitici ad alta resistenza e alta tenacità}
+
+\subsection{Ferritico-Perlitici ad alta resistenza e alta tenacità}
 Sono comunque acciai microlegati con cui si procede con 
 \textbf{Affinamento del grano}, controllato tramite controllo della
 dimensione del grano austenitico di partenza.
 Grazie a questo processo si ha un miglioramento della tenacità.
-Dopodiché si hanno duo possibili vie per migliorare anche la resistenza:
+Dopodiché si hanno due possibili vie per migliorare anche la resistenza:
 \begin{enumerate}
 \item \textbf{Normalizzazione}, in genere più adatta per lamiere con 
 spessore $>25\unit{\mm}$;
@@ -328,7 +329,7 @@ spessore $>25\unit{\mm}$;
 $<25\unit{\mm}$.
 \end{enumerate}
 
-\paragraph*{Normalizzazione} per lamiere di spessore $>25\unit{\mm}$
+\subsubsection*{Normalizzazione} per lamiere di spessore $>25\unit{\mm}$
 In questo caso si segue un procedimento del tipo proposto alla figura \ref{fig:NormFerPer}.
 I dettagli delle operazioni post laminazione a caldo saranno:
 
@@ -346,13 +347,13 @@ In generale si avrà \textbf{una resistenza non particolarmente alta e
 tenacità scadente}.
 \columnbreak
 \begin{definition}{}{*}
-T finale di laminazione $> 880 \div 900\unit{\celsius}$
+T finale di laminazione $= 880 \div 900\unit{\celsius}$
 \end{definition}
 I carburi precipitano mentre l'austenite tende a riscristallizzare, dunque
 ne controllano la crescita.
 I precipitati devono essere molto fini e dispersi, altrimenti 
 infragiliscono la struttura.
-Si genererà un grano ferritico con $d \approx 5 \div 6\unit{\mm}$ con 
+Si genererà un grano ferritico con $d \approx 5 \div 6\unit{\um}$ con 
 contributo di $R_s = 390\div450\unit{\MPa}$.
 Aggiungendo il contributo dato dai precipitati si arriva a $R_s = 
 550\unit{\MPa}$. Ottenendo \textbf{resistenza e tenacità più alte}
@@ -360,12 +361,15 @@ Aggiungendo il contributo dato dai precipitati si arriva a $R_s =
 
 \begin{figure}
 \centering
-\includegraphics[width = \textwidth]{NormFerPer}
-\caption{Possibilità sul trattamento di normalizzaizone}
-\label{fig:NormFerPer}
+\subfloat[][\emph{Possibilità sul trattamento di normalizzaizone}\label{fig:NormFerPer}]
+{\includegraphics[width = \textwidth]{NormFerPer}}\\
+\subfloat[][\emph{Possibili processi di laminazione controllata}\label{fig:LamiFerPer}]
+{\includegraphics[width = \textwidth]{LamiFerPer}}
+\caption{Lavorazioni per acciai ferritico-perlitici ad alta resistenza e tenacità}
+\label{fig:LavHSHT}
 \end{figure}
 
-\paragraph*{Laminazione controllata}
+\subsubsection*{Laminazione controllata}
 Anche in questo caso si possono realizzare due tipi di lavorazione come si vede
 dalla figura \ref{fig:LamiFerPer}. Nello specifico: si evidenziano due diverse
 tipologie di acciaio:
@@ -410,8 +414,6 @@ una tessitura simile a quella della laminazione a freddo con conseguente anisotr
 
 \begin{figure}
 \centering
-\subfloat[][\emph{Possibili processi di laminazione controllata}\label{fig:LamiFerPer}]
-{\includegraphics[width = \textwidth]{LamiFerPer}}\\
 \subfloat[][\emph{Laminazione controllata del I Tipo}\label{fig:1TipoferPer}]
 {\includegraphics[width = 0.4\textwidth]{1TipoFerPer}}\quad
 \subfloat[][\emph{Microstruttura al microscopio ottico di HSLA al V}\label{fig:2TipoFerPer}]
@@ -423,7 +425,7 @@ una tessitura simile a quella della laminazione a freddo con conseguente anisotr
 \end{figure}
 
 \newpage
-\subsubsection{Acciai a basso tenore di C con struttura aciculare}
+\subsection{Acciai a basso tenore di C con struttura aciculare}
 Con questa classe di acciai si è superato il valore di resistenza $R_s \approx 500 \div 600\unit{\MPa}$
 senza ricorrere ad acciai da bonifica. Andando ad evolvere ulteriormente le classi
 di acciai viste in precedenza.
@@ -452,3 +454,37 @@ Si ha la necessità di sostituire il B con altri elementi meno problematici.
 \caption{Confronto curve CCC tra acciaio Ferritico-Perlitico e a basso carbonio a struttura Aciculare}
 \label{fig:ConfFer-Per/LowC}
 \end{figure}
+
+Successivi miglioramenti a questi acciai sono stati:
+\begin{enumerate}
+\item Sostituendo il B con il Nb (tenendo un tenore inferiore al $0.02\%$)
+	\begin{itemize}
+	\item Si hanno dei precipitati di NbC lungo i piani paralleli all'interno dei grani
+	durante la trasformazione da austenite a ferrite;
+	\item impedisce la crescita equiassica dei nuclei di ferrite. 
+	\end{itemize}
+\item Si possono ottenere delle resistenze più alte allo stato grezzo di laminazione a caldo 
+sostituendo la Mn al Mo.
+	\begin{itemize}
+	\item Si favorisce la formazione di bainiti inferiori;
+	\item $R_s \approx 620 \div 790\unit{\MPa}$;
+	\item ci sono difficoltà operative ne produrre acciai con $Mn > 2\%$.
+	\end{itemize}
+\item Si può ottenere bainite anche con una tempra in linea all'uscita del laminatoio
+mantenendo una velocità di raffreddamento $V_{raff} = 100\unit{\celsius/s}$
+\item Migliorando le tecniche di produzione con limitazione spinta del tenore di zolfo e
+modifica della forma delle inclusioni.
+\end{enumerate}
+
+Gli acciai \ac{HSS} sono acciai con $300\unit{\MPa} < R_m < 700\unit{\MPa}$ che includono gli
+acciai rinforzati per incrudimento, soluzione solida, precipitazione e affinamento del grano
+tra cui \ac{IF-HS}, \ac{IS}, \ac{BH}, \ac{CMn} e \ac{HSLA}.
+
+Mentre gli \ac{AHSS} di prima generazione sono acciai con $R_m > 500\unit{\MPa}$ e costituiti in 
+generale da una microstruttura complessa formata da più fasi (ferrite, martensite, bainite
+e austenite residua) 
+\begin{itemize}
+\item Acciai rinforzati per trasformazioni strutturali (DP, TRIP, MS);
+\item Acciai con rafforzamento misto: affinamento del grano, precipitazione e trasformazioni 
+strutturali (CP).
+\end{itemize}
