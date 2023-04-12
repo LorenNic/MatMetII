@@ -484,7 +484,224 @@ Mentre gli \ac{AHSS} di prima generazione sono acciai con $R_m > 500\unit{\MPa}$
 generale da una microstruttura complessa formata da più fasi (ferrite, martensite, bainite
 e austenite residua) 
 \begin{itemize}
-\item Acciai rinforzati per trasformazioni strutturali (DP, TRIP, MS);
+\item Acciai rinforzati per trasformazioni strutturali (\ac{DP}, \ac{TRIP}, \ac{MS});
 \item Acciai con rafforzamento misto: affinamento del grano, precipitazione e trasformazioni 
-strutturali (CP).
+strutturali (\ac{CP}).
 \end{itemize}
+
+\begin{wrapfloat}{figure}{O}{0pt}
+\includegraphics[width=0.8\textwidth, angle=90]{HSSAHSS}
+\caption{Rappresentazione della resistenza/duttilità degli acciai HSS e AHSS}
+\label{fig:HSSAHSS}
+\end{wrapfloat}
+
+La nomenclatura di questi acciai può essere rappresentata tramite la classica designazione 
+\texttt{CEI} \texttt{EN}, però non è raro trovarli secondo la nomenclatura della \ac{ULSAB-AVC}.
+La nomenclatura prevede:
+
+\begin{definition}{Nomenclatura \ac{ULSAB-AVC}}{NomULSAB-AVC}
+\begin{equation}
+XXXX \: aaa/bbb
+\end{equation}
+Dove:
+\begin{description}
+\item[$XXXX$] indica il tipo di acciaio
+\item[$aaa$] indica $R_s$ minimo garantito in $\unit{\MPa}$
+\item[$bbb$] indica $R_m$ minimo garantito in $\unit{\MPa}$
+\end{description}
+\end{definition}
+
+\begin{figure}
+\centering
+\subfloat[][\emph{Designazione acciai HSS \eng{cold rolled}}\label{fig:DesHSSCold}]
+{\includegraphics[width = 0.8\textwidth]{DesHSSCold}}\\
+\subfloat[][\emph{Designazione acciai HSS \eng{hot rolled}}\label{fig:DesHSSHot}]
+{\includegraphics[width = 0.8\textwidth]{DesHSSHot}}\\
+\subfloat[][\emph{Designazione acciai \eng{Dual Phase}}\label{fig:DesDP}]
+{\includegraphics[width = 0.7\textwidth]{DesDP}}
+\caption{Designazioni secondo \ac{ULSAB-AVC} a confronto con normative \texttt{UNI} \texttt{EN}}
+\label{fig:ConfDeignazioni}
+\end{figure}
+
+Sebbene gli acciai visti in questo capitolo già riescano ad avere degli ottimi risultati in termini 
+di resistenza meccanica, senza compromettere troppo la duttilità del materiale, ulteriori
+sviluppi di questi acciai sono in fase di studio portando la così detta II generazione di 
+acciai \ac{AHSS}.
+L'obbiettivo è sempre quello di realizzare degli acciai a basso costo (basso legati) che 
+possano essere realizzati in processi di fonderia non eccessivamente complicati.
+In modo tale da permettere la realizzazione di acciai ad alta resistenza e tenacità a 
+basso costo di produzione.
+
+Ora verranno presentati alcuni tra gli \ac{AHSS} più avanzati presenti sul mercato come i
+\ac{DP}, \ac{TRIP}, \ac{TWIP} e \ac{QandP}.
+
+\begin{quote}
+\emph{\textbf{Come si possono realizzare degli acciai che contengano più fasi 
+nella soluzione solida?}}
+\end{quote}
+
+Il procedimento viene chiamato \textbf{processo termomeccanico} un esempio è riportato alla
+figura \ref{fig:Termomeccanico}.
+Si tratta di processi di produzione tramite cottura inter-critica e inter-critica continua.
+Ovvero, il tutto parte sulla base delle curve \ac{TTT}. Per cui si realizza un raffreddamento 
+controllato in modo da portare l'acciaio in in una specifica fase ferrosa.
+Da lì, controllando il raffreddamento si possono ottenere delle soluzioni solide a 
+diversa concentrazione di fasi diverse in base alla permanenza, in
+una delle zone di trasformazione di fase. 
+
+\begin{figure}
+\centering
+\includegraphics[width = 0.7\textwidth]{Termomeccanico}
+\caption{Esempio di processo termomeccanico con i relativi risultati}
+\label{fig:Termomeccanico}
+\end{figure}
+
+\subsection{Dual Phase}
+Gli acciai \eng{Dual Phase} (\ac{DP}) sono caratterizzati da una lega abbastanza povera.
+
+\begin{definition}{Dual Phase}{DP}
+\\
+\begin{tabularx}{\textwidth}{X|X|X|X}
+\toprule
+\textbf{C} & \textbf{Cr, Mo} & \textbf{V} & \textbf{Nb}\\
+$0.06\div 0.15\%$ & $\leq 0.4\%$ & $\leq 0.6\%$ & $\leq 0.04\%$\\
+\bottomrule
+\end{tabularx}
+\end{definition}
+Le caratteristiche salienti per questo tipo di acciaio sono ad esempio:
+la presenza di snervamento continuo, con un basso rapporto $R_s/R_m = 0.60\div 0.65$ 
+(considerando che in genere per un comune \ac{HSLA} è $= 0.7\div 0.8$).
+I prodotti ottenibili presentano una variegata possibilità di tensioni di snervamento
+con $R_s = 500 \div 1200\unit{\MPa}$ anche se quelli più utilizzati sono i \texttt{DP600}.
+Hanno un buon comportamento a deformazione che si presenta molto uniforme. Anche la resistenza a
+fatica è molto valida. Come anticipato: la lega è molto povera quindi il costo di produzione non
+è eccessivo.
+In genere vengono impiegati per: parti resistenti delle carrozzerie e costruzioni metalliche 
+generiche.
+
+\begin{figure}
+\centering
+\includegraphics[width = 0.3\textwidth]{DP}
+\caption{Microstruttura acciai \ac{DP}}
+\label{fig:DP}
+\end{figure}   
+
+In generale per gli acciai \texttt{DP600}, in figura \ref{fig:DP}, si realizzano con una percentuale di ferrite attorno al
+$60\div90\%$ che risulta molto povera di carbonio $<0.02\%$. Mentre la martensite è più ricca di
+carbonio rispetto all'acciaio di partenza. Se ne ottiene:
+\begin{enumerate}
+\item Una struttura profondamente stampabile, grazie alla ferrite;
+\item Con elevate caratteristiche meccaniche per via della martensite.
+\end{enumerate}
+
+Per ottenere questo tipo di acciaio viene eseguita una \textbf{ricottura continua intercrtitica}:
+\begin{enumerate}
+\item Dopo la laminazione l'acciaio viene portato a temperatura tra $A_1$ e $A_3$.
+\item viene mantenuto a tale temperatura (in zona intercritica $\alpha + \gamma$) per la \
+trasformazione da austenite a ferrite fino al 80\%.
+\item Approfittando di un campo di non trasformazione tra ferrite e perlite e la bainite, si
+effettua l'avvolgimento in \eng{coils} senza incontrare la trasformazione bainitica.
+\end{enumerate}
+Siccome resta la percentuale di austenite $\approx 20\%$, quella verrà trasformata in:
+\begin{description}
+\item[Bainite] circa il $2\div 5\%$;
+\item[Martensite-$\alpha'$] circa il $18 \div 15\%$.
+\end{description} 
+
+\subsection{Acciai TRIP}
+Prevedono anche una quota parte di austenite residua (tra il $5\div20\%$ di residuo), viene 
+sfruttata per l'effetto \ac{TRIP} in figura \ref{fig:TRIPEffect}.
+Deformando plasticamente l'austenite che diventa martensite, viene promossa tramite la deformazione 
+del materiale. Dopo la deformazione diventa più resistente.
+Dunque si aumenta la formabilità del materiale. Se si lascia dell'austenite residua, può essere che 
+un forte impatto vada a trasformare la restate austenite in martensite. Portando il materiale a 
+resistere all'impatto.
+
+\begin{definition}{Acciai TRIP}{TRIP}
+Tipica lega per gli acciai \ac{TRIP}:
+\begin{tabularx}{\textwidth}{XXX}
+\toprule
+C $= 0.2\%$, Mn $= 1.8\%$, Si $= 1.6\%$ &
++Si e Al per stabilizzare l'austenite &
++ Ti e V per aumentare la resistenza\\
+\bottomrule
+\end{tabularx}
+\end{definition}
+
+\begin{figure}
+\centering
+\subfloat[][\emph{Composizione acciai TRIP}\label{fig:TRIPComposition}]
+{\includegraphics[width = 0.3\textwidth]{TRIPComposition}}\quad
+\subfloat[][\emph{Effetto \ac{TRIP}}\label{fig:TRIPEffect}]
+{\includegraphics[width = 0.3\textwidth]{TRIPEffect}}\quad
+\subfloat[][\emph{Microstruttura acciaio TRIP al microscopio}\label{fig:TRIP}]
+{\includegraphics[width = 0.3\textwidth]{TRIP}}\quad
+\caption{Gli acciai \ac{TRIP}}
+\label{fig:AccTRIP}
+\end{figure}
+
+L'ottenimento degli acciai \ac{TRIP} non è troppo diverso da quello dei \ac{DP} visti in 
+precedenza, cambia la zona di permanenza durante il raffreddamento come si vede in figura
+\ref{fig:TRIPProduction}.
+
+\begin{figure}
+\centering
+\includegraphics[width = \textwidth]{TRIPProduction}
+\caption{Processo produttivo degli acciai \ac{TRIP}}
+\label{fig:TRIPProduction}
+\end{figure}
+
+Sebbene le caratteristiche meccaniche siano eccezionali, questi acciai presentano dei limiti tipo:
+\begin{itemize}
+\item Hanno elevati valori di elementi in lega;
+\item Le operazioni di saldatura sono rese difficili dagli alti tenori di Mn-Si o Mn-Al che 
+chiedono altrettanto elevati tenori di C ($\approx 0.15\div 0.25\%$). Quindi rendendo le operazioni 
+di saldatura abbastanza problematiche.
+\item A causa degli elementi in lega, possono incorrere delle situazioni di ossidazione durante
+le laminazioni e la zincatura a caldo non è incoraggiata.
+\item Se la stabilità dell'austenite è modesta, possono verificarsi delle trasformazioni in 
+martensite per via della bassa temperatura ambientale. 
+\end{itemize}
+
+\subsection{Acciai TWIP}
+A differenza dei loro predecessori, presentano un comportamento allo snervamento particolare:
+Mentre gli acciai \ac{TRIP}, se sottoposti a sollecitazione, trasformano i residui di 
+austenite in martensite irrigidendosi. Gli acciai \ac{TWIP} resistono alla tensione fino a quasi
+un 90\% di deformazione.
+Ciò li rende particolarmente interessanti in quanto posseggono delle caratteristiche meccaniche 
+molto promettenti, senza trascurare la tenacità.
+Il problema di questi acciai deriva dal fatto che posseggono una lega particolarmente ricca.
+Dunque non sono esattamente a buon mercato.
+
+\begin{figure}
+\centering
+\includegraphics[width = 0.5\textwidth]{TWIP}
+\caption{Confronto in termini di deformazione-snervamento tra acciai \ac{TRIP} e \ac{TWIP}}.
+\label{fig:TWIP}
+\end{figure}
+
+\subsection{Q\&P}
+Sono acciai realizzati tramite un innovativo metodo di trattamento termomeccanico.
+Di base sono acciai \ac{TRIP} in cui viene controllata la diffusione del carbonio
+dalla martensite all'austenite residua.
+
+Trasferimento di carbonio dalla martensite all'austenite.
+Il carbonio in eccesso non deve formare dei carburi,  ma deve trasferirsi nell'austenite. Perché 
+quando si torna a raffreddare, l'austenite viene stabilizzata abbassandone la temperatura $M_f$.
+In questo caso invece di avere un'austenite che si trasformerà in martensite, deve rimanere tale e 
+quale per garantire più deformabilità, mantenendo una buona durezza.
+
+\begin{figure}
+\centering
+\includegraphics[width = 0.5\textwidth]{QandP}
+\caption{Metodo di realizzazione dei \ac{QandP}}
+\label{fig:QandP}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width = \textwidth]{AHSSIIGen}
+\caption{Acciai \ac{AHSS} di seconda generazione e la loro collocazione in caratteristiche 
+meccaniche}
+\label{fig:AHSSIIGen}
+\end{figure}
