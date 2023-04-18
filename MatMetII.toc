@@ -2,6 +2,7 @@
 \contentsline {chapter}{Indice}{i}{section*.3}%
 \contentsline {chapter}{Elenco delle figure}{iii}{section*.5}%
 \contentsline {chapter}{Elenco delle tabelle}{iv}{section*.12}%
+\contentsline {chapter}{Todo list}{v}{section*.13}%
 \contentsline {chapter}{\chapternumberline {1}Classificazione e Designazione degli acciai}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}La normazione}{1}{section.1.1}%
 \contentsline {subsection}{\numberline {1.1.1}Acciai non legati}{2}{subsection.1.1.1}%
@@ -28,15 +29,15 @@
 \contentsline {section}{\numberline {2.2}Acciai resistenti alla corrosione atmosferica}{15}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Acciai ad alta resistenza (HSS e AHSS)}{16}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}Meccanismi di rinforzo}{16}{subsection.2.3.1}%
-\contentsline {paragraph}{Rafforzamento per soluzione solida}{16}{section*.36}%
-\contentsline {paragraph}{Incrudimento}{16}{section*.37}%
-\contentsline {paragraph}{Rinforzo per precipitazione}{16}{section*.38}%
-\contentsline {paragraph}{Rafforzamento per affinamento del grano}{17}{section*.40}%
+\contentsline {paragraph}{Rafforzamento per soluzione solida}{16}{section*.38}%
+\contentsline {paragraph}{Incrudimento}{16}{section*.39}%
+\contentsline {paragraph}{Rinforzo per precipitazione}{16}{section*.40}%
+\contentsline {paragraph}{Rafforzamento per affinamento del grano}{17}{section*.42}%
 \contentsline {section}{\numberline {2.4}HSLA}{18}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}Ferritico-Perlitici ad alta resistenza}{19}{subsection.2.4.1}%
 \contentsline {subsection}{\numberline {2.4.2}Ferritico-Perlitici ad alta resistenza e alta tenacità}{19}{subsection.2.4.2}%
 \contentsline {subsection}{\numberline {2.4.3}Acciai a basso tenore di C con struttura aciculare}{22}{subsection.2.4.3}%
-\contentsline {subsection}{\numberline {2.4.4}Dual Phase}{24}{subsection.2.4.4}%
+\contentsline {subsection}{\numberline {2.4.4}Dual Phase}{26}{subsection.2.4.4}%
 \contentsline {subsection}{\numberline {2.4.5}Acciai TRIP}{27}{subsection.2.4.5}%
 \contentsline {subsection}{\numberline {2.4.6}Acciai TWIP}{28}{subsection.2.4.6}%
 \contentsline {subsection}{\numberline {2.4.7}Q\&P}{28}{subsection.2.4.7}%
@@ -53,11 +54,18 @@
 \contentsline {section}{\numberline {3.4}Acciai inossidabili Martensitici}{35}{section.3.4}%
 \contentsline {subsection}{\numberline {3.4.1}Trattamenti termici}{35}{subsection.3.4.1}%
 \contentsline {section}{\numberline {3.5}Acciai inossidabili PH}{35}{section.3.5}%
-\contentsline {appendix}{\chapternumberline {A}Considerazioni aggiuntive sulla UNI EN 10020}{36}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Tipologie di acciai non legati speciali}{36}{section.A.1}%
-\contentsline {section}{\numberline {A.2}Tipologie di acciai legati di qualità}{36}{section.A.2}%
-\contentsline {section}{\numberline {A.3}Tipologie di acciai legati speciali}{37}{section.A.3}%
-\contentsline {appendix}{\chapternumberline {B}Considerazioni aggiuntive sugli acciai da costruzione}{38}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Accia effervescenti e calmati}{38}{section.B.1}%
-\contentsline {section}{\numberline {B.2}Considerazioni sugli HSLA}{38}{section.B.2}%
-\contentsline {appendix}{\chapternumberline {C}Acronimi}{39}{appendix.C}%
+\contentsline {subsection}{\numberline {3.5.1}Trattamenti termici}{36}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Acciai PH Martensitici}{36}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}Acciai PH Austenitici}{37}{subsection.3.5.3}%
+\contentsline {subsection}{\numberline {3.5.4}Acciai PH Semi-Austenitici}{38}{subsection.3.5.4}%
+\contentsline {subsection}{\numberline {3.5.5}Considerazioni conclusive}{38}{subsection.3.5.5}%
+\contentsline {section}{\numberline {3.6}Acciai Inossidabili Duplex}{38}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Trattamento termico per i duplex}{39}{subsection.3.6.1}%
+\contentsline {appendix}{\chapternumberline {A}Considerazioni aggiuntive sulla UNI EN 10020}{40}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Tipologie di acciai non legati speciali}{40}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Tipologie di acciai legati di qualità}{40}{section.A.2}%
+\contentsline {section}{\numberline {A.3}Tipologie di acciai legati speciali}{41}{section.A.3}%
+\contentsline {appendix}{\chapternumberline {B}Considerazioni aggiuntive sugli acciai da costruzione}{42}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Accia effervescenti e calmati}{42}{section.B.1}%
+\contentsline {section}{\numberline {B.2}Considerazioni sugli HSLA}{42}{section.B.2}%
+\contentsline {appendix}{\chapternumberline {C}Acronimi}{43}{appendix.C}%

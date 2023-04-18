@@ -142,7 +142,7 @@ detti anche autotempranti (la scelta dipende dagli spessori).
 \section{Acciai inossidabili PH}
 
 Acciai non più monofasici, andando ad interrogare gli acciai duplex.
-\emph{Precipitation Hardening}. 
+\ac{PH}. 
 Sono stati sviluppati per richieste dell'industria aeronautica e bellica.
 Hanno elevate caratteristiche meccaniche al contempo elevate caratteristiche
 alla corrosione.
@@ -150,13 +150,122 @@ Tali caratteristiche si sono ottenute grazie al processo di indurimento per
 precipitazione.
 Spesso vengono nominati tramite il nome commerciale piuttosto della
 designazione normativa.
-Secondo l'AISI \todo{Acronimo} sono la serie 6XX. Come riferimento al
+Secondo l'\ac{AISI} sono la serie 6XX. Come riferimento al
 \texttt{AISI 630}.
 
+\todo{\\Aggiungere eventuali nomenclature europee}
 Si nota, dalla nomenclatura europea, che i tenori di carbonio è molto
 molto basso $0.01\%$ per alcune formulazioni.
 Questa caratteristica non è troppo distante dagli acciai austenitici.
 Ciò impone che le caratteristiche meccaniche vengano demandate ai (molti)
-elementi in lega. Si demanda alla precipitazione di altre soluzioni.
+elementi in lega tipo Cu, Ti, Al. Si demanda alla precipitazione di altre 
+soluzioni.
 Ad esempio spesso si hanno precipitazioni tipo: $Ni_3X$ dove $X$ è un
 altro elemento in lega.
+Si può avere la presenza di precipitati di carburi o nitrocarburi. In modo da formulare precipitazioni fini e disperse si possono incrementare la resistenza meccanica dell'acciaio come già visto anche per gli \ac{HSLA}.
+
+Vengono suddivisi in tre classi:
+\begin{description}
+\item[Martensitici] come riferimento si prende il \texttt{17-4 PH} che corrisponde al \texttt{AISI 630}. Tra l'altro è l'acciaio più diffuso per questa tiplogia di acciai
+\item[Semi-austenitici] come riferimento si può considerare il \texttt{17-7 PH} che equivale all'\texttt{AISI 631}. Vengono forniti allo stato austenitico. Dopo tutto il processo di produzione e trattamento termico finale si ha una matrice non più austenitica ma martensitica. Da qui il nome semi-austenitico.
+\item[Austenitici] Hanno più alto contenuto di P, per cui viene evidenziato nella sigla omettendo la H: \texttt{17-10 P} mentre non ha una corrispondenza perfetta nella nomenclatura \ac{AISI}.
+\end{description}
+La nomenclatura indica nelle prime cifre la percentuale del tenore di Cr, nelle seconde la percentuale di Ni.
+Tra l'altro il tenore di Ni abbassa i punti $M_s$ e $M_f$ si abbassano per cui si favorisce una matrice austenitica piuttosto di quella martensitica.
+Inoltre grazie alla presenza in lega di particolari elementi si sfrutta un'indurimento misto tra precipitazione di carburi (anche se il carbonio è molto poco) e altre precipitazioni.
+Si ricorda che affinché sia efficace la precipitazione, i precipitati devono essere piccoli e dispersi. Altrimenti si infragilisce la struttura peggiorando la situazione.
+\missingfigure[figcolor = white]{Aggiungere tabella per gli acciai PH} 
+
+\subsection{Trattamenti termici}
+Per gli acciai \ac{PH} subiscono un trattamento termico che è comune anche agli acciai
+\begin{itemize}
+\item acciai Maraging, acciai martensitici induriti tramite precipitazione.
+\item leghe di alluminio
+\item Superleghe
+\end{itemize}
+\missingfigure{Grafico trattamento termico PH}
+
+Il processo è il seguente
+\begin{enumerate}
+\item Solubilizzazione tra i $750\div1050\unit{\celsius}$
+\item Tempra
+\item Invecchiamento.
+\end{enumerate}
+Si ottiene un'indurimento per precipitazione dovuto a precipitazione della matrice di composti intermetallici, carburi, nitruri o fasi contenenti Cu o altri elementi.
+
+Ora vediamo come cambia il processo di produzione per le varie classi di \ac{PH}.
+
+\subsection{Acciai PH Martensitici}
+Sono i più impiegati e vengono forniti già allo stato martensitico.
+Contengono una buona dose di Cu $\approx 4\%$ e spesso presentano anche del Nb per realizzare dei carburi di niobio.
+$M_f$ è maggiore della temperatura ambiente dunque si ha una matrice martensitica dopo rapido raffreddamento.
+
+Combinano elevata resistenza meccanica e buona resistenza alla corrosione.
+Hanno un costo decisamente elevati.
+Le applicazioni sono molteplici grazie alla loro diffusione: sono stati sviluppati per l'ambito militare e aerospaziale. Ora si trovano in componentistica per automobili, ingranaggi e sensoristica. Vengono sfruttati anche per la manifattura additiva.
+
+Il trattamento termico non è molto diverso da quello visto in precedenza.
+\missingfigure{Grafico ciclo termico PH Martensitici}
+Si realizza una solubilizzazione a $1050\unit{\celsius}$ e tempra. presentano una martensite duttile per il basso tenore di carbonio $\approx 0.05 \div 0.07\%$.
+Dopo l'invecchiamento con $T = 480 \div 620\unit{\celsius}$. La matrice risulta rinforzata da precipitati nanometrici, anche di tipo $Ni_2X$ e fasi CFC ricche di Cu nel caso del \texttt{17-4 PH}
+\missingtable{Tabella caratteristiche meccaniche}
+
+\subsection{Acciai PH Austenitici}
+Bisogna ricordare che in questo caso $M_s$ e $M_f$ sono sotto la temperatura ambiente (di molto). Per cui non si ha formazione di martensite.
+\missingfigure{Ciclo termico PH aust.}
+A temperatura ambiente post tempra, vengono effettuate le lavorazione a freddo per guadagnare resistenza meccanica e poi effettuare l'invecchiamento.
+Resta una buona riserva plastica anche dopo l'invecchiamento per via della struttura austenitica.
+\missingtable{Tabella valori caratteristiche meccaniche}
+
+\subsection{Acciai PH Semi-Austenitici}
+$M_f$ è sotto temperatura ambiente, perciò sarà necessario un rappreddamento sotto temperatura ambiente.
+Per favorire il passaggio da austenite a martensite (Passaggio di condizionamento) per trasformare l'austenite in martensite.
+Grazie a questo processo si riesce ad alzare $M_s$ e $M_f$.
+\todo{\\Vedi descrizione ciclo termico nelle slide}
+\missingfigure{Ciclo termico PH semi-aust.}
+
+\missingtable{Valori caratteristiche meccaniche PH Semi-Aust.}
+
+\subsection{Considerazioni conclusive}
+Con questi acciai si riescono a raggiungere delle ottime caratteristiche meccaniche, anche superiori agli inossidabili martensitici; ottenendo delle resistenze alla corrosione confrontabili con gli inossidabili austenitici.
+
+Presentano una buona saldabilità! ad eccezione per gli acciai P, perché il fosforo tende a generare fasi basso-fondenti, rischiando di generare delle cricche a caldo.
+
+Il trattamento di invecchiamento non provoca distorsioni quindi si hanno dei costi maggiori degli inossidabili. Viene compensato dai più ampi limiti d'impiego dell'acciaio.
+
+
+\section{Acciai Inossidabili Duplex}
+Da non confondere con gli acciai \ac{DP} che presentano una combinazione tra ferrite e martensite (più eventuale bainite residua).
+In questo caso si parla di acciai che propongono metà struttura austenitica e metà in fase ferritica.
+
+Tale composizione è ottenuta tramite il bilanciamento della lega Cr-Ni-Mo.
+
+Sono acciai con costo medio-alto. Vengono impiegati in ambienti in cui
+\todo{\\Vedi la slide per gli impieghi.}
+
+\missingfigure{Composizione struttura.}
+
+Vengono sfruttati per l'ambiente chimico-petrolchimico e strutture \eng{off-shore}.
+Sono saldabili e presentano una buona resistenza meccanica e alla corrosione. Non presentano ossidazione ad alta temperatura.
+Possono essere suscettibili all'infragilimento a $475\unit{\celsius}$.
+
+\missingfigure{Inserire tabelle nomenclature acciai duplex}
+
+Il prefisso "super" indica un valore di \ac{PREN} > 40\%.
+Indice che questi materiali sono particolarmente resistenti ad attacchi corrosivi.
+\begin{equation}
+PRE_N = \%Cr + 3.3 \%Mo + 30 \%Ni
+\end{equation}
+\todo{\\Verificare le formule del PREN}
+
+\missingfigure{Metallografie fenomeno pitting}
+
+Il \eng{pitting} tende a formarsi sulla ferrite che non sull'austenite.
+
+\subsection{Trattamento termico per i duplex}
+Dal diagramma in figura, si può stimare quanta parte di fase $\delta$ e $\gamma$. La frazione delle due dipende dagli elementi in lega e dalla temperatura di raffreddamento.
+Di solito gli acciai duplex vengono \textbf{solubilizzati} tra i $1000\div 1100\unit{\celsius}$. Viene seguito da una raffreddamento rapido per bloccare l'evoluzione delle due fasi. In più si vogliono evitare i fenomeni di infragilimneto e sensibilizzazione del materiale.
+
+\missingfigure{Grafico curve di Bhain}
+
+Attenzione al \ac{PREN}: quello è un indice sulla base della composizione chimica del materiale. Se la microstruttura ha generato delle fasi infragilenti o sensibilizzanti, sicuramente il comportamento del materiale non è quello dato dalla sola composizione chimica. 
