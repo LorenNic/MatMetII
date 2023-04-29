@@ -47,7 +47,7 @@
 \contentsline {section}{\numberline {3.2}Acciai inossidabili austenitici}{33}{section.3.2}%
 \contentsline {subsection}{\numberline {3.2.1}Tattamenti termici applicabili}{33}{subsection.3.2.1}%
 \contentsline {subsubsection}{\numberline {3.2.1.1}Trattamento di distensione}{33}{subsubsection.3.2.1.1}%
-\contentsline {section}{\numberline {3.3}Acciai inossidabili ferritici}{33}{section.3.3}%
+\contentsline {section}{\numberline {3.3}Acciai inossidabili ferritici}{34}{section.3.3}%
 \contentsline {subsection}{\numberline {3.3.1}Trattamenti termici}{34}{subsection.3.3.1}%
 \contentsline {subsubsection}{\numberline {3.3.1.1}Ricottura di ricristallizzazione}{34}{subsubsection.3.3.1.1}%
 \contentsline {subsubsection}{\numberline {3.3.1.2}Acciai ferritici ELI}{35}{subsubsection.3.3.1.2}%
@@ -55,17 +55,35 @@
 \contentsline {subsection}{\numberline {3.4.1}Trattamenti termici}{35}{subsection.3.4.1}%
 \contentsline {section}{\numberline {3.5}Acciai inossidabili PH}{35}{section.3.5}%
 \contentsline {subsection}{\numberline {3.5.1}Trattamenti termici}{36}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}Acciai PH Martensitici}{36}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.2}Acciai PH Martensitici}{37}{subsection.3.5.2}%
 \contentsline {subsection}{\numberline {3.5.3}Acciai PH Austenitici}{37}{subsection.3.5.3}%
 \contentsline {subsection}{\numberline {3.5.4}Acciai PH Semi-Austenitici}{38}{subsection.3.5.4}%
 \contentsline {subsection}{\numberline {3.5.5}Considerazioni conclusive}{38}{subsection.3.5.5}%
-\contentsline {section}{\numberline {3.6}Acciai Inossidabili Duplex}{38}{section.3.6}%
+\contentsline {section}{\numberline {3.6}Acciai Inossidabili Duplex}{39}{section.3.6}%
 \contentsline {subsection}{\numberline {3.6.1}Trattamento termico per i duplex}{39}{subsection.3.6.1}%
-\contentsline {appendix}{\chapternumberline {A}Considerazioni aggiuntive sulla UNI EN 10020}{40}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Tipologie di acciai non legati speciali}{40}{section.A.1}%
-\contentsline {section}{\numberline {A.2}Tipologie di acciai legati di qualità}{40}{section.A.2}%
-\contentsline {section}{\numberline {A.3}Tipologie di acciai legati speciali}{41}{section.A.3}%
-\contentsline {appendix}{\chapternumberline {B}Considerazioni aggiuntive sugli acciai da costruzione}{42}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Accia effervescenti e calmati}{42}{section.B.1}%
-\contentsline {section}{\numberline {B.2}Considerazioni sugli HSLA}{42}{section.B.2}%
-\contentsline {appendix}{\chapternumberline {C}Acronimi}{43}{appendix.C}%
+\contentsline {chapter}{\chapternumberline {4}Acciai da utensile}{41}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Trattamenti termici}{43}{section.4.1}%
+\contentsline {chapter}{\chapternumberline {5}Ghise}{45}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Il materiale}{46}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Fattori di influenza}{47}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Il carbonio equivalente}{47}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Solidificazione e raffreddamento}{48}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Inoculazione}{48}{subsection.5.2.3}%
+\contentsline {section}{\numberline {5.3}Solidificazione e raffreddamento}{49}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Classificazione delle ghise}{50}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Classificazione della grafite}{50}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Classificazione della matrice}{51}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}Classificazione complessiva}{51}{subsection.5.4.3}%
+\contentsline {section}{\numberline {5.5}Ghise bianche}{52}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Ghise grigie}{52}{section.5.6}%
+\contentsline {section}{\numberline {5.7}Ghise Sferoidali}{53}{section.5.7}%
+\contentsline {section}{\numberline {5.8}Produzione della ghisa}{53}{section.5.8}%
+\contentsline {subsection}{\numberline {5.8.1}La sferoidizzazione}{53}{subsection.5.8.1}%
+\contentsline {appendix}{\chapternumberline {A}Considerazioni aggiuntive sulla UNI EN 10020}{54}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Tipologie di acciai non legati speciali}{54}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Tipologie di acciai legati di qualità}{54}{section.A.2}%
+\contentsline {section}{\numberline {A.3}Tipologie di acciai legati speciali}{55}{section.A.3}%
+\contentsline {appendix}{\chapternumberline {B}Considerazioni aggiuntive sugli acciai da costruzione}{56}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Accia effervescenti e calmati}{56}{section.B.1}%
+\contentsline {section}{\numberline {B.2}Considerazioni sugli HSLA}{56}{section.B.2}%
+\contentsline {appendix}{\chapternumberline {C}Acronimi}{57}{appendix.C}%
