@@ -99,12 +99,17 @@
 \contentsline {subsubsection}{\numberline {6.2.1.1}Normative europee}{66}{subsubsection.6.2.1.1}%
 \contentsline {subsubsection}{\numberline {6.2.1.2}Normative americane}{68}{subsubsection.6.2.1.2}%
 \contentsline {subsection}{\numberline {6.2.2}Normative sulla base dei TT}{69}{subsection.6.2.2}%
-\contentsline {part}{\partnumberline {VII}Appendici}{70}{part.7}%
-\contentsline {appendix}{\chapternumberline {A}Considerazioni aggiuntive sulla UNI EN 10020}{71}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Tipologie di acciai non legati speciali}{71}{section.A.1}%
-\contentsline {section}{\numberline {A.2}Tipologie di acciai legati di qualità}{71}{section.A.2}%
-\contentsline {section}{\numberline {A.3}Tipologie di acciai legati speciali}{72}{section.A.3}%
-\contentsline {appendix}{\chapternumberline {B}Considerazioni aggiuntive sugli acciai da costruzione}{73}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Accia effervescenti e calmati}{73}{section.B.1}%
-\contentsline {section}{\numberline {B.2}Considerazioni sugli HSLA}{73}{section.B.2}%
-\contentsline {appendix}{\chapternumberline {C}Acronimi}{74}{appendix.C}%
+\contentsline {subsection}{\numberline {6.2.3}Principali alliganti}{70}{subsection.6.2.3}%
+\contentsline {subsubsection}{\numberline {6.2.3.1}Sistema Al-Si}{70}{subsubsection.6.2.3.1}%
+\contentsline {subsubsection}{\numberline {6.2.3.2}Sistema Al-Cu}{71}{subsubsection.6.2.3.2}%
+\contentsline {section}{\numberline {6.3}Meccanismo di precipitazione}{71}{section.6.3}%
+\contentsline {part}{\partnumberline {VII}Appendici}{73}{part.7}%
+\contentsline {appendix}{\chapternumberline {A}High Entropy Alloys}{74}{appendix.A}%
+\contentsline {appendix}{\chapternumberline {B}Considerazioni aggiuntive sulla UNI EN 10020}{76}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Tipologie di acciai non legati speciali}{76}{section.B.1}%
+\contentsline {section}{\numberline {B.2}Tipologie di acciai legati di qualità}{76}{section.B.2}%
+\contentsline {section}{\numberline {B.3}Tipologie di acciai legati speciali}{77}{section.B.3}%
+\contentsline {appendix}{\chapternumberline {C}Considerazioni aggiuntive sugli acciai da costruzione}{78}{appendix.C}%
+\contentsline {section}{\numberline {C.1}Accia effervescenti e calmati}{78}{section.C.1}%
+\contentsline {section}{\numberline {C.2}Considerazioni sugli HSLA}{78}{section.C.2}%
+\contentsline {appendix}{\chapternumberline {D}Acronimi}{79}{appendix.D}%
